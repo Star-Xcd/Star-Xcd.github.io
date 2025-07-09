@@ -1,0 +1,34 @@
+title: Chendong Xin
+email: xcd22@mails.tsinghua.edu.cn
+description: >-
+  Robotics & AI | Manipulation
+
+github_username: Star-Xcd
+minimal_mistakes_skin: default
+search: true
+
+timezone: America/San_Francisco
+
+author:
+  name   : "Chendong Xin"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Undergraduate researcher in Robotics and AI, focused on manipulation."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:xcd22@mails.tsinghua.edu.cn"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Star-Xcd"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/slovartephese"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Star-Xcd"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/slovartephese"
