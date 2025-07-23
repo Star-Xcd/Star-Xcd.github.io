@@ -12,4 +12,4 @@ My interests include:
 - 🖐️ Human-to-Robot Teleoperation
 - 👁️ Vision-Based Grasping
 
-Check out my [About](/about/) page to learn more.
+Check out my [About](/_pages/about.md) page to learn more.
