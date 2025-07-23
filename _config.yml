@@ -24,9 +24,7 @@ author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
   bio: "An undergraduate researcher in Robotics and AI, focused on robotic manipulation."
-  department: "Department of Automation"
-  school: "Tsinghua University"
-  location: "Beijing, China"
+  location: "Tsinghua University, China"
   email: "xcd22@mails.tsinghua.edu.cn"
   links:
     - label: "GitHub"
@@ -78,17 +76,17 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: false
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: "_pages"
