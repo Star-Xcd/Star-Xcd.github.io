@@ -1,21 +1,54 @@
-title: Chendong Xin
-email: xcd22@mails.tsinghua.edu.cn
-description: >-
-  Robotics & AI | Manipulation
+# _config.yml 优化版本
 
-github_username: Star-Xcd
+# Site Settings
+locale: "en-US"
+title: "Chendong Xin"
+title_separator: "-"
+subtitle: "Robotics & AI Researcher"
+name: "Chendong Xin"
+description: >-
+  Undergraduate researcher in Robotics and AI, focused on dexterous manipulation 
+  and human-robot interaction.
+url: "https://star-xcd.github.io"  # 替换为你的实际网址
+baseurl: ""
+repository: "Star-Xcd/star-xcd.github.io"  # 替换为你的仓库名
+
+# Site Configuration
+timezone: America/Los_Angeles  # 或者用 Asia/Shanghai 如果你在中国
 minimal_mistakes_skin: air
 search: true
+breadcrumbs: false
+words_per_minute: 200
 
-timezone: America/San_Francisco
-
+# Site Author
 author:
-  name   : "Chendong Xin"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Undergraduate researcher in Robotics and AI, focused on manipulation."
+  name: "Chendong Xin"
+  avatar: "/assets/images/bio-photo.jpg"  # 确保这个文件存在
+  bio: "Undergraduate researcher in Robotics and AI, focused on dexterous manipulation and human-robot interaction."
+  location: "Beijing, China"  # 可选：添加位置
+  email: "xcd22@mails.tsinghua.edu.cn"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:xcd22@mails.tsinghua.edu.cn"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Star-Xcd"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"  # 如果有的话
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"  
+      url: "https://orcid.org/YOUR_ORCID"  # 如果有的话
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/slovartephese"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:xcd22@mails.tsinghua.edu.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -24,11 +57,100 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/slovartephese"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Star-Xcd"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/slovartephese"
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+# Exclude from processing
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false  # 如果不需要评论可以设为 false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# SEO Related
+google_site_verification: "YOUR_GOOGLE_VERIFICATION_CODE"  # 可选
+bing_site_verification: "YOUR_BING_VERIFICATION_CODE"      # 可选
+
+# Social Sharing
+twitter:
+  username: "YOUR_TWITTER"  # 如果有的话
+
+# Analytics
+analytics:
+  provider: false  # 暂时关闭，需要时可以配置 Google Analytics
+  # provider: "google-gtag"
+  # google:
+  #   tracking_id: "YOUR_GA_TRACKING_ID"
