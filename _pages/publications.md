@@ -4,8 +4,8 @@ permalink: /publications/
 layout: single
 author_profile: true
 ---
-
-### 📌 Selected Publications
+<!-- 
+### 📌 Selected Publications -->
 
 1. **Chendong Xin^**, Mingrui Yu^, Yongpeng Jiang, Zhefeng Zhang, and Xiang Li.  
    _Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation_.  

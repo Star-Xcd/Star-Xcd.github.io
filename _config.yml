@@ -14,7 +14,7 @@ repository: "Star-Xcd/star-xcd.github.io"
 
 # Site Configuration
 timezone: Asia/Shanghai
-minimal_mistakes_skin: air
+minimal_mistakes_skin: mint
 search: true
 breadcrumbs: false
 words_per_minute: 200
