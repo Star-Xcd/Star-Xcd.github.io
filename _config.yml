@@ -24,13 +24,10 @@ words_per_minute: 200
 author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
-  bio: "Undergraduate researcher in Robotics and AI, focused on dexterous manipulation and human-robot interaction."
-  location: "Beijing, China"
+  bio: "An undergraduate researcher in Robotics and AI, focused on robotic manipulation."
+  location: "Tsinghua University, Beijing, China"
   email: "xcd22@mails.tsinghua.edu.cn"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:xcd22@mails.tsinghua.edu.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Star-Xcd"
