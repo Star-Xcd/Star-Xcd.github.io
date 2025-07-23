@@ -1,7 +1,6 @@
 ---
 layout: home
 author_profile: true
-classes: wide
 ---
 
 # Welcome! 👋
@@ -33,7 +32,3 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 ## Contact
 
 I'm always interested in discussing robotics, AI, and potential collaborations. Feel free to reach out via [email](mailto:xcd22@mails.tsinghua.edu.cn) or connect with me on [GitHub](https://github.com/Star-Xcd)!
-
----
-
-*This site is under active development. Check back for updates on my latest research and projects.*

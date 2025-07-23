@@ -1,6 +1,40 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
+layout: single
+author_profile: true
 ---
 
-Hi, I'm **Chendong Xin** - an undergraduate passionate about robotics.
+## About Me
+
+I'm Chendong Xin, an undergraduate researcher passionate about robotics and artificial intelligence. My work focuses on advancing the field of dexterous manipulation and human-robot interaction.
+
+### Background
+
+Currently pursuing my undergraduate studies while actively conducting research in robotics. I'm particularly interested in bridging the gap between human dexterity and robotic capabilities.
+
+### Research Focus
+
+My research interests include:
+- Dexterous manipulation algorithms
+- Learning from human demonstration
+- Teleoperation systems
+- Vision-based grasping and manipulation
+
+### Education
+
+**Undergraduate Student**  
+[Your University Name]  
+[Your Major/Department]  
+[Year - Present]
+
+### Skills
+
+**Programming Languages:** Python, C++, MATLAB  
+**Robotics Frameworks:** ROS, MoveIt, Gazebo  
+**Machine Learning:** PyTorch, TensorFlow, OpenCV  
+**Tools:** Git, Linux, Docker
+
+---
+
+*This page is under development. More details coming soon!*
