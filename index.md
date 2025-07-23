@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Chendong Xin"
 author_profile: true
 ---
