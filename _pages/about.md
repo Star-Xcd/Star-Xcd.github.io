@@ -33,7 +33,8 @@ Department of Automation
 **Programming Languages:** Python, C++, MATLAB  
 **Robotics Frameworks:** ROS/ROS2, MoveIt, Gazebo  
 **Tools:** PyTorch, ROS, Multisim, Solidworks, LaTex  
-**Robots:** UR5/UR5e, Franka Emika
+**Robots:** UR5/UR5e, Franka Emika  
+
 ---
 
 *This page is under development. More details coming soon!*
