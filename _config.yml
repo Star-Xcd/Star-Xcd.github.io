@@ -11,7 +11,7 @@ timezone: America/San_Francisco
 
 author:
   name   : "Chendong Xin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/07.png"
   bio    : "Undergraduate researcher in Robotics and AI, focused on manipulation."
   links:
     - label: "Email"
