@@ -7,8 +7,7 @@ title_separator: "-"
 subtitle: "Robotics & AI Researcher"
 name: "Chendong Xin"
 description: >-
-  Undergraduate researcher in Robotics and AI, focused on dexterous manipulation 
-  and human-robot interaction.
+  An undergraduate researcher in Robotics and AI, focused on robotic manipulation.
 url: "https://star-xcd.github.io"
 baseurl: ""
 repository: "Star-Xcd/star-xcd.github.io"
@@ -25,7 +24,9 @@ author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
   bio: "An undergraduate researcher in Robotics and AI, focused on robotic manipulation."
-  location: "Tsinghua University, Beijing, China"
+  department: "Department of Automation"
+  school: "Tsinghua University"
+  location: "Beijing, China"
   email: "xcd22@mails.tsinghua.edu.cn"
   links:
     - label: "GitHub"
