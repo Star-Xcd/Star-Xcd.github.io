@@ -16,17 +16,17 @@ Currently pursuing my undergraduate studies while actively conducting research i
 ### Research Focus
 
 My research interests include:
-- Dexterous manipulation algorithms
 - Learning from human demonstration
 - Teleoperation systems
+- Dexterous manipulation
 - Vision-based grasping and manipulation
 
 ### Education
 
 **Undergraduate Student**  
-[Tsinghua University]  
-[Department of Automation]  
-[2022 - Present]
+Tsinghua University  
+Department of Automation  
+2022 - Present
 
 ### Skills
 
