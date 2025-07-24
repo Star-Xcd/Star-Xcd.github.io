@@ -18,8 +18,8 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 ## Quick Links
 
 📄 [About Me](/about/) - Learn more about my background and experience  
-🔬 [Research](/research/) - Current and past research projects  
-<!-- 📚 [Publications](/publications/) - Papers and conference presentations   -->
+🔬 [Research](/projects/) - Current and past research & course projects  
+📚 [Publications](/publications/) - Papers and conference presentations  
 <!-- 📋 [CV](/cv/) - Complete curriculum vitae   -->
 
 ## Latest Updates
