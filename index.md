@@ -13,14 +13,14 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 🧠 **Learning from Demonstration** - Teaching robots through human demonstrations  
 🤖 **Human-to-Robot Teleoperation** - Intuitive control interfaces for robotic systems  
 🖐️ **Dexterous Manipulation** - Developing algorithms for complex robotic hand control   
-👁️ **Vision-Based Grasping** - Integrating computer vision with manipulation planning  
+👁️ **Vision-Based Grasping and Manipulation** - Integrating computer vision with manipulation
 
 ## Quick Links
 
 📄 [About Me](/about/) - Learn more about my background and experience  
 🔬 [Research](/research/) - Current and past research projects  
-📚 [Publications](/publications/) - Papers and conference presentations  
-📋 [CV](/cv/) - Complete curriculum vitae  
+<!-- 📚 [Publications](/publications/) - Papers and conference presentations   -->
+<!-- 📋 [CV](/cv/) - Complete curriculum vitae   -->
 
 ## Latest Updates
 

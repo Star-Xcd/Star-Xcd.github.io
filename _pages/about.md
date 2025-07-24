@@ -7,19 +7,19 @@ author_profile: true
 
 ## About Me
 
-I'm Chendong Xin, an undergraduate researcher passionate about robotics and artificial intelligence. My work focuses on advancing the field of robotic manipulation and human-robot interaction.
+I'm Chendong Xin, an undergraduate researcher passionate about robotics. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907) I'm now in the Department of Automation in Tsinghua University, where I actively work in the field of robotic.
 
 ### Background
 
-Currently pursuing my undergraduate studies while actively conducting research in robotics. I'm particularly interested in bridging the gap between human dexterity and robotic capabilities.
+I am particularly interested in robotic manipulation and the real-world deployment of robot learning methods. My research focuses on enabling robots to achieve human-level accuracy and robustness in manipulation tasks. In the long term, I aim to advance the capabilities of dexterous manipulation for complex tasks through learning-based approaches, and to bridge the gap between simulation and real-world performance.
 
 ### Research Focus
 
-My research interests include:
-- Learning from human demonstration
+My research interests lie in the intersection of robot learning and manipulation, including:
+
+- Imitation learning and learning from human demonstration  
+- Dexterous manipulation and contact-rich manipulation  
 - Teleoperation systems
-- Dexterous manipulation
-- Vision-based grasping and manipulation
 
 ### Education
 
