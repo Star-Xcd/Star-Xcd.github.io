@@ -3,6 +3,7 @@ layout: home
 author_profile: true
 classes: wide
 show_excerpts: false
+entries_layout: none
 ---
 
 I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**.
