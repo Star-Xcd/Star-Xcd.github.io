@@ -12,9 +12,9 @@ I'm **Chendong Xin**, an undergraduate researcher passionate about advancing rob
 
 My work focuses on bridging the gap between human dexterity and robotic capabilities:
 
-🧠 **Learning from Demonstration** - Teaching robots through human demonstrations  
-🤖 **Human-to-Robot Teleoperation** - Intuitive control interfaces for robotic systems  
-🖐️ **Dexterous Manipulation** - Developing algorithms for complex robotic hand control   
+🧠 **Learning from Demonstration** - Imitation learning to learn from human experts  
+🤖 **Human-to-Robot Teleoperation** - Teleoperation algorithms and systems for data collection  
+🖐️ **Dexterous Manipulation** - Developing methods for complex robotic hand control   
 👁️ **Vision-Based Grasping and Manipulation** - Integrating computer vision with manipulation
 
 ## Quick Links
