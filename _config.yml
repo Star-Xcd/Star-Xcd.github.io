@@ -94,3 +94,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# SEO settings
+seo:
+  type: "Person"
+  name: "Chendong Xin"
+  links:
+    - "https://github.com/Star-Xcd"
+    - "https://star-xcd.github.io"
