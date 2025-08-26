@@ -8,7 +8,7 @@ entries_layout: none
 
 I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**.
 
-## Research Interests
+## Research Interests and Experiences
 
 My work focuses on bridging the gap between human dexterity and robotic capabilities:
 
