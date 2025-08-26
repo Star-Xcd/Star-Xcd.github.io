@@ -4,10 +4,10 @@ remote_theme: mmistakes/minimal-mistakes
 locale: "en-US"
 title: "Chendong Xin"
 title_separator: "-"
-subtitle: "Robotics & AI Researcher"
+subtitle: "Robotics Undergrad Researcher"
 name: "Chendong Xin"
 description: >-
-  An undergraduate researcher in Robotics and AI, focused on robotic manipulation.
+  An undergraduate researcher in Robotics from Tsinghua University, focused on robotic manipulation.
 url: "https://star-xcd.github.io"
 baseurl: ""
 repository: "Star-Xcd/star-xcd.github.io"
@@ -23,7 +23,7 @@ words_per_minute: 200
 author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
-  bio: "An undergraduate researcher in Robotics and AI, focused on robotic manipulation."
+  bio: "An undergraduate researcher in Robotics from Tsinghua University, focused on robotic manipulation."
   location: "Tsinghua University, China"
   email: "xcd22@mails.tsinghua.edu.cn"
   links:
