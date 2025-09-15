@@ -6,11 +6,7 @@ show_excerpts: false
 entries_layout: none
 ---
 
-I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**.
-
-## About Me
-
-I'm Chendong Xin, an undergraduate researcher passionate about robotics. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907) I'm now in the Department of Automation in Tsinghua University, where I actively work in the field of robotic.
+I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907)
 
 ### Background
 
@@ -27,7 +23,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 
 ## Quick Links
 
-📄 [About Me](/about/) - Learn more about my background and experience  
+<!-- 📄 [About Me](/about/) - Learn more about my background and experience   -->
 🔬 [Projects](/projects/) - Current and past research & course projects  
 📚 [Publications](/publications/) - Papers and conference presentations  
 📋 [CV](/cv/) - Complete curriculum vitae  
