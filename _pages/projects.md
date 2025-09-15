@@ -1,8 +1,12 @@
 ---
 title: "Projects"
 permalink: /projects/
-layout: posts
+layout: single
 author_profile: true
+classes: wide
+toc: true
+toc_label: "Projects"
+toc_icon: "cog"
 ---
 
 ## Research Projects
