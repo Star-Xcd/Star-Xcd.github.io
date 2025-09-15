@@ -26,5 +26,7 @@ Kinematic retargeting from human hands to robot hands is essential for transferr
 **Advisor:** Prof. Xiang Li  
 **Lab:** [Intelligent Robotic Manipulation Lab](https://thu-irml.com), Department of Automation, Tsinghua University 
 
+**We won the ICRA 2025 Robotic Grasping and Manipulation Competition (RGMC) “Picking from Clutter” track.** We tackle the challenge of sequential picking in dense clutter via developing a robotic system integrating a novel hybrid endeffector (including a parallel gripper, a suction cup and an electromagnet), a robust algorithm pipeline, and a pragmatic decluttering strategy. The system’s efficacy was benchmarked in a real-world, on-site competition, where it secured first place, outperforming other systems in both robustness and efficiency.
+
 ## Selected Course Projects
 
