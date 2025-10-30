@@ -13,7 +13,7 @@ author_profile: true
    Submitted to IEEE Robotics and Automation Practice, 2025.
    [[Paper](https://arxiv.org/abs/2506.09384)] [[Code](https://github.com/Mingrui-Yu/retargeting)] [[Website](https://mingrui-yu.github.io/retargeting/)] 
 
-2. Xiaomeng Xu*, Yifan Hou*, **Chendong Xin**, Zeyi Liu, Shuran Song.  
+2. Xiaomeng Xu\*, Yifan Hou\*, **Chendong Xin**, Zeyi Liu, Shuran Song.  
    _Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections_.  
    Neural Information Processing Systems (Neurips 2025).
    Human-to-Robot Workshop (CoRL 2025), Best Paper.
