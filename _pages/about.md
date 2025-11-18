@@ -18,7 +18,8 @@ I am particularly interested in robotic manipulation and the real-world deployme
 My research interests lie in the intersection of robot learning and manipulation, including:
 
 - Imitation learning and learning from human demonstration  
-- Dexterous manipulation and contact-rich manipulation  
+- Dexterous manipulation and contact-rich manipulation 
+- Robotic foundation models 
 - Teleoperation systems
 
 ### Education
