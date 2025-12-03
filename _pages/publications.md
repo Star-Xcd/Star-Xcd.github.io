@@ -17,7 +17,9 @@ author_profile: true
    _Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections_.  
    NeurIPS 2025 *(Contributed after the initial submission; not listed as authorship was already locked)*.   
    Human-to-Robot Workshop (CoRL 2025), Best Paper.  
-   [[Paper](https://openreview.net/pdf?id=wHd7lfTpfp)] [[Website](https://compliant-residual-dagger.github.io/)] 
+   [[Paper](https://arxiv.org/abs/2506.16685)] [[Code](https://github.com/yifan-hou/cr-dagger)] [[Website](https://compliant-residual-dagger.github.io/)]  
+   [[Extended Paper(with more experiments & learnings)](https://t.co/wPnNXbKFzx)] 
+   
 
 3. Shihefeng Wang*, **Chendong Xin\***, Zhefeng Zhang, Gongrui Ma, and Xiang Li  
    _Hybrid Gripper and Adaptive Strategy for Robust Grasping in Clutter: RGMC Champion Solution_.  

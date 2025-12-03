@@ -16,6 +16,7 @@ toc_icon: "cog"
 **Duration:** 06/2025 - 09/2025  
 **Advisor:** Prof. Shuran Song  
 **Lab:** [Robotics and Embodied Artificial Intelligence Lab](https://real.stanford.edu), Stanford University   
+**Project Website:** [https://compliant-residual-dagger.github.io](https://compliant-residual-dagger.github.io)  
 *This is the project I participate in during my internship at Stanford REALab.*  
 
 **TL;DR**: Improving contact-rich manipulation with a compliant residual policy learned from on-policy delta human correction.
