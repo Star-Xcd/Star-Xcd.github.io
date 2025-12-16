@@ -11,7 +11,7 @@ author_profile: true
    _Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation_.  
    ICRA 2025 Workshop "Handy Moves: Dexterity in Multi-Fingered Hands".  
    IEEE Robotics and Automation Practice, 2025 (Under review).
-   [[Paper](https://arxiv.org/abs/2506.09384)] [[Code](https://github.com/Mingrui-Yu/retargeting)] [[Website](https://mingrui-yu.github.io/retargeting/)] 
+   [[Paper](/assets/docs/Analyzing%20Key%20Objectives%20in%20Human-to-Robot%20Retargeting%20for%20Dexterous%20Manipulation.pdf)] [[Code](https://github.com/Mingrui-Yu/retargeting)] [[Website](https://mingrui-yu.github.io/retargeting/)] 
 
 2. Xiaomeng Xu\*, Yifan Hou\*, **Chendong Xin**, Zeyi Liu, Shuran Song.  
    _Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections_.  
