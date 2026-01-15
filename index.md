@@ -31,7 +31,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 
 ## Latest Updates
 
-- **[2026.1.15]** - Our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice!
+- **[2026.1.15]** - Our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice! 
 - **[2025.6.21]** - I start my internship at Stanford [REALab](https://real.stanford.edu) as an undergraduate visiting student, working with [Prof. Shuran Song](https://shurans.github.io)!
 - **[2025.5.22]** - We win the Picking-in-Clutter Track of [the Robotics Grasping and Manipulation Competition (RGMC)](https://sites.google.com/view/rgmc2025) at ICRA 2025!
 - **[2025.5.19]** - I present our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) at ICRA 2025 Workshop "Handy Moves: Dexterity in Multi-Fingered Hands"!
