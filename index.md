@@ -41,7 +41,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 **Undergraduate Student**  
 Tsinghua University  
 Department of Automation  
-*Research Advisor: Xiang Li*
+*Research Advisor: Xiang Li*  
 2022 - Present
 
 ## Internship Experience
