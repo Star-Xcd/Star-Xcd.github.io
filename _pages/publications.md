@@ -15,7 +15,8 @@ author_profile: true
 
 2. Xiaomeng Xu\*, Yifan Hou\*, **Chendong Xin**, Zeyi Liu, Shuran Song.  
    _Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections_.  
-   NeurIPS 2025 *(Contributed after the initial submission; not listed as authorship was already locked)*.   
+   <!-- NeurIPS 2025 *(Contributed after the initial submission; not listed as authorship was already locked)*.    -->
+   NeurIPS 2025.  
    Human-to-Robot Workshop (CoRL 2025), Best Paper.  
    [[Paper](https://arxiv.org/abs/2506.16685)] [[Code](https://github.com/yifan-hou/cr-dagger)] [[Website](https://compliant-residual-dagger.github.io/)]  
    <!-- [[Extended Paper(with more experiments & learnings)](https://t.co/wPnNXbKFzx)]  -->
