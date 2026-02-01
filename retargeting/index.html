@@ -164,6 +164,189 @@
 <!-- End teaser video -->
 
 
+<!-- Experiments & Results  -->
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <h2 class="title is-3 has-text-centered">Experiments & Results</h2>
+    <div class="content has-text-centered">
+      <p class="is-size-5">
+        We analyze the significance of different retargeting objectives via
+        <strong>kinematic posture retargeting</strong> and <strong>real-world teleoperated manipulation</strong>.
+      </p>
+    </div>
+
+
+    <!-- Our Method (terms) -->
+    <div class="box">
+      <h3 class="title is-4">Our Method: Objective Terms</h3>
+      <div class="columns is-vcentered">
+        <div class="column is-6">
+          <div class="content">
+            <ul>
+              <li><strong>Fingertip orientations</strong>: vectors from DIP joints to fingertips to ensure correct contact normals for fine manipulation.</li>
+              <li><strong>Overall hand shape</strong>: fingertip positions relative to the wrist to preserve human-hand posture.</li>
+              <li><strong>Relative fingertip positions</strong>: spatial relationship between thumb-tip and primary fingertips to enable precise coordination (e.g., pinching).</li>
+              <li><strong>Global hand pose</strong>: thumb-tip position term (instead of typical wrist position) with small wrist-orientation weight to allow flexible wrist adjustment.</li>
+              <li><strong>Joint regularization</strong>: prevents undesired joint configurations.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6 has-text-centered">
+          <!-- Put a clean figure here: hand/robot hand + legend -->
+          <figure class="image">
+            <img src="static/images/method_terms.png" alt="Objective terms illustration">
+          </figure>
+          <p class="is-size-7 has-text-grey">Figure: objective terms illustration (from poster / paper figure).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ablation setup -->
+    <div class="box">
+      <h3 class="title is-4">Ablation Setup</h3>
+      <div class="content">
+        <p>
+          We implement ablations by removing or changing certain objective terms in the complete objective to analyze their significance.
+          Experiments cover both kinematic posture retargeting and real-world manipulation tasks.
+        </p>
+      </div>
+      <div class="has-text-centered">
+        <figure class="image">
+          <img src="static/images/ablation_table.png" alt="Ablation table">
+        </figure>
+        <p class="is-size-7 has-text-grey">Table: ablation categories and definitions (A1–A8).</p>
+      </div>
+    </div>
+
+    <!-- Kinematic posture retargeting -->
+    <div class="box">
+      <h3 class="title is-4">Kinematic Posture Retargeting</h3>
+      <div class="columns is-vcentered">
+        <div class="column is-6">
+          <figure class="image">
+            <img src="static/images/kin_retargeting_grid.png" alt="Kinematic retargeting qualitative results">
+          </figure>
+          <p class="is-size-7 has-text-grey">Qualitative: failure cases when removing key terms (e.g., pinch / orientation).</p>
+        </div>
+        <div class="column is-6">
+          <figure class="image">
+            <img src="static/images/results_bars_kin.png" alt="Kinematic retargeting quantitative results">
+          </figure>
+          <p class="is-size-7 has-text-grey">Quantitative: kinematic retargeting errors across ablations.</p>
+        </div>
+      </div>
+
+      <!-- Sub-videos (replace with your real clips) -->
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Example 1: Fingertip pinch (Full vs A1)</p>
+              <video controls muted playsinline width="100%">
+                <source src="static/videos/kin_full_vs_a1.mp4" type="video/mp4">
+              </video>
+              <p class="is-size-7 has-text-grey">Pinch success drops when removing the pinch term.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Example 2: Fingertip orientation (Full vs A3)</p>
+              <video controls muted playsinline width="100%">
+                <source src="static/videos/kin_full_vs_a3.mp4" type="video/mp4">
+              </video>
+              <p class="is-size-7 has-text-grey">Without the orientation term, fingers fail to bend naturally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Real-world manipulation -->
+    <div class="box">
+      <h3 class="title is-4">Real-World Teleoperated Manipulation</h3>
+      <div class="columns is-vcentered">
+        <div class="column is-6">
+          <figure class="image">
+            <img src="static/images/real_tasks_grid.png" alt="Real-world tasks montage">
+          </figure>
+          <p class="is-size-7 has-text-grey">Tasks: pick/place with rotation, mug with bending thumb, precise screw placement.</p>
+        </div>
+        <div class="column is-6">
+          <figure class="image">
+            <img src="static/images/results_bars_real.png" alt="Real-world quantitative results">
+          </figure>
+          <p class="is-size-7 has-text-grey">Quantitative: task success rates / time across ablations.</p>
+        </div>
+      </div>
+
+      <!-- Task videos -->
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Task 1: Pick, rotate by 90°, and place</p>
+              <video controls muted playsinline width="100%">
+                <source src="static/videos/task1_pick_place.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Task 2: Drag a mug with a bending thumb</p>
+              <video controls muted playsinline width="100%">
+                <source src="static/videos/task2_mug_thumb.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Task 3: Place small screws precisely with fingertips</p>
+              <video controls muted playsinline width="100%">
+                <source src="static/videos/task3_screw_fingertips.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key takeaways -->
+    <div class="box">
+      <h3 class="title is-4">Key Takeaways</h3>
+      <div class="content">
+        <ul>
+          <li><strong>Fingertip pinch</strong>: removing this term increases positional error and decreases pinch success; crucial for precise fingertip coordination.</li>
+          <li><strong>Fingertip orientation</strong>: without it, the robot hand fails to bend fingers naturally; crucial when orientation matters, not just position.</li>
+          <li><strong>Global hand pose</strong>: using thumb-tip position (instead of wrist position) allows flexible wrist adjustment to improve fingertip accuracy.</li>
+          <li><strong>Joint regularization</strong>: prevents undesired joint configurations.</li>
+          <li>Our full formulation shows no conflicts and performs well across tasks.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Optional: full poster -->
+    <div class="box">
+      <h3 class="title is-4">Poster</h3>
+      <div class="has-text-centered">
+        <figure class="image">
+          <img src="static/images/poster_full.jpg" alt="Poster">
+        </figure>
+        <p class="is-size-7 has-text-grey">Full poster view.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Experiments & Results -->
+
+
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
