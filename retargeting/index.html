@@ -43,6 +43,13 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+    svg: { fontCache: 'global' }
+  };
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
 
@@ -179,32 +186,81 @@
       </p>
     </div>
 
-    <!-- Our Method (terms) -->
+    <!-- Objective Terms -->
     <div class="box">
       <h3 class="title is-4">Objective Terms</h3>
-      <div class="columns is-vcentered">
+
+      <p class="content">
+        We intuitively list the factors that are potentially crucial to human-to-robot retargeting
+        for dexterous manipulation, formulate their corresponding mathematical representations,
+        and construct a complete retargeting objective.
+      </p>
+
+      <div class="columns">
+        <!-- Left: semantic description -->
         <div class="column is-6">
           <div class="content">
             <ul>
-              <li><strong>Fingertip orientations</strong>: vectors from DIP joints to fingertips to ensure correct contact normals for fine manipulation.</li>
-              <li><strong>Overall hand shape</strong>: fingertip positions relative to the wrist to preserve human-hand posture.</li>
-              <li><strong>Relative fingertip positions</strong>: spatial relationship between thumb-tip and primary fingertips to enable precise coordination (e.g., pinching).</li>
-              <li><strong>Global hand pose</strong>: thumb-tip position term (instead of typical wrist position) with small wrist-orientation weight to allow flexible wrist adjustment.</li>
-              <!-- <li><strong>Joint regularization</strong>: prevents undesired joint configurations.</li> -->
+              <li>
+                <strong>Global hand pose</strong>:
+                using <em>thumb-tip position</em> (instead of typical wrist position) with a small
+                wrist-orientation weight to allow flexible wrist adjustment.
+              </li>
+
+              <li>
+                <strong>Overall hand shape</strong>:
+                fingertip positions relative to the wrist to preserve the posture of the human hand.
+              </li>
+
+              <li>
+                <strong>Relative fingertip positions</strong>:
+                spatial relationship between thumb-tip and primary fingertips to enable precise
+                coordination (e.g., pinching).
+              </li>
+
+              <li>
+                <strong>Fingertip orientations</strong>:
+                vectors from DIP joints to fingertips to ensure correct contact normals
+                for fine manipulation.
+              </li>
             </ul>
           </div>
         </div>
-        <div class="column is-6 has-text-centered">
-          <figure class="image">
-            <img src="static/images/method_terms.png" alt="Objective terms illustration">
-          </figure>
-          <p class="is-size-7 has-text-grey">
-            Objective terms illustration (from poster / paper figure).
-          </p>
+
+        <!-- Right: mathematical formulation -->
+        <div class="column is-6">
+          <div class="content">
+            <p><strong>Global hand pose</strong></p>
+            $$\mathcal{L}_{\text{hand\_pose}}
+            = \lVert p^{h}_{\text{thumb}} - p^{r}_{\text{thumb}} \rVert_2^2
+            + \beta_{\text{rot}}\, \text{angle}(q^{h}_{\text{wrist}}, q^{r}_{\text{wrist}})$$
+
+            <p><strong>Overall hand shape</strong></p>
+            $$\mathcal{L}_{\text{fingertip\_pos}}
+            = \sum_{i=1}^{N} \lVert v_i^{h} - v_i^{r} \rVert_2^2$$
+
+            <p><strong>Relative fingertip positions</strong></p>
+            $$\mathcal{L}_{\text{pinch}}
+            = \sum_{i=1}^{N-1} s(d_i)
+            \lVert \gamma_i^{r} - l(d_i)\gamma_i^{h} \rVert_2^2$$
+
+            <p><strong>Fingertip orientations</strong></p>
+            $$\mathcal{L}_{\text{fingertip\_rot}}
+            = \sum_{i=1}^{N} \lVert r_i^{h} - r_i^{r} \rVert_2^2$$
+
+            <p><strong>Complete objective</strong></p>
+            $$\mathcal{L}_{\text{total}}
+            = \lambda_1 \mathcal{L}_{\text{thumb\_pos}}
+            + \lambda_2 \mathcal{L}_{\text{wrist\_rot}}
+            + \lambda_3 \mathcal{L}_{\text{fingertip\_pos}}
+            + \lambda_4 \mathcal{L}_{\text{fingertip\_rot}}
+            + \lambda_5 \mathcal{L}_{\text{pinch}}
+            + \mathcal{L}_{\text{joint}}
+            + \mathcal{L}_{\text{vel}}$$
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <!-- End Method -->
 
