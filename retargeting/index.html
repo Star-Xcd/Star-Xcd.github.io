@@ -187,7 +187,7 @@
     </div>
 
     <!-- Objective Terms -->
-    <div class="box">
+    <div class="box" id="objective-terms">
       <h3 class="title is-4">Objective Terms</h3>
 
       <p class="content">
@@ -200,27 +200,25 @@
         <!-- Left: semantic description -->
         <div class="column is-6">
           <div class="content">
-            <ul>
-              <li>
+            <ul class="obj-list">
+              <li class="obj-item" data-key="hand_pose">
                 <strong>Global hand pose</strong>:
                 using <em>thumb-tip position term</em> (instead of typical wrist position term) and
                 wrist orientation term (with small weight)
-                <!-- using <em>thumb-tip position</em> (instead of typical wrist position) with a small
-                wrist-orientation weight to allow flexible wrist adjustment. -->
               </li>
 
-              <li>
+              <li class="obj-item" data-key="fingertip_pos">
                 <strong>Overall hand shape</strong>:
                 using <em>fingertip positions relative to the wrist</em> to preserve the posture of the human hand.
               </li>
 
-              <li>
+              <li class="obj-item" data-key="pinch">
                 <strong>Relative fingertip positions</strong>:
                 using spatial relationship between <em>thumb-tip and primary fingertips</em> to enable precise
                 coordination of fingertips for manipulation tasks like pinching.
               </li>
 
-              <li>
+              <li class="obj-item" data-key="fingertip_rot">
                 <strong>Fingertip orientations</strong>:
                 using vectors <em>from DIP joints to fingertips</em> to ensure correct contact normals
                 for fine manipulation.
@@ -231,40 +229,52 @@
 
         <!-- Right: mathematical formulation -->
         <div class="column is-6">
-          <div class="content">
+          <div class="content obj-eqs">
 
-            $$\begin{aligned}
-            \mathcal{L}_{\text{hand pose}}
-            &= \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2 \\
-            &\quad + \beta_{\text{rot}}\,
-            \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)
-            \end{aligned}$$
+            <div class="eq-item" data-key="hand_pose">
+              $$\begin{aligned}
+              \mathcal{L}_{\text{hand pose}}
+              &= \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2 \\
+              &\quad + \beta_{\text{rot}}\,
+              \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)
+              \end{aligned}$$
+            </div>
 
-            $$\mathcal{L}_{\text{fingertip pos}}
-            = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2$$
+            <div class="eq-item" data-key="fingertip_pos">
+              $$\mathcal{L}_{\text{fingertip pos}}
+              = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2$$
+            </div>
 
-            $$\mathcal{L}_{\text{pinch}}
-            = \sum_{i=1}^{N-1} s(d_i)\,
-            \left\lVert \boldsymbol{\gamma}^{\,r}_{i} - l(d_i)\,\hat{\boldsymbol{\gamma}}^{\,h}_{i} \right\rVert_2^2$$
+            <div class="eq-item" data-key="pinch">
+              $$\mathcal{L}_{\text{pinch}}
+              = \sum_{i=1}^{N-1} s(d_i)\,
+              \left\lVert \boldsymbol{\gamma}^{\,r}_{i} - l(d_i)\,\hat{\boldsymbol{\gamma}}^{\,h}_{i} \right\rVert_2^2$$
+            </div>
 
-            $$\mathcal{L}_{\text{fingertip rot}}
-            = \sum_{i=1}^{N} \left\lVert \mathbf{r}^{\,h}_{i} - \mathbf{r}^{\,r}_{i} \right\rVert_2^2$$
+            <div class="eq-item" data-key="fingertip_rot">
+              $$\mathcal{L}_{\text{fingertip rot}}
+              = \sum_{i=1}^{N} \left\lVert \mathbf{r}^{\,h}_{i} - \mathbf{r}^{\,r}_{i} \right\rVert_2^2$$
+            </div>
 
-            $$\begin{aligned}
-            \mathcal{L}_{\text{total}}
-            &= \lambda_1 \mathcal{L}_{\text{thumb pos}}
-            + \lambda_2 \mathcal{L}_{\text{wrist rot}}
-            + \lambda_3 \mathcal{L}_{\text{fingertip pos}} \\
-            &\quad + \lambda_4 \mathcal{L}_{\text{fingertip rot}}
-            + \lambda_5 \mathcal{L}_{\text{pinch}}
-            + \mathcal{L}_{\text{joint}}
-            + \mathcal{L}_{\text{vel}}
-            \end{aligned}$$
+            <div class="eq-item" data-key="total">
+              $$\begin{aligned}
+              \mathcal{L}_{\text{total}}
+              &= \lambda_1 \mathcal{L}_{\text{thumb pos}}
+              + \lambda_2 \mathcal{L}_{\text{wrist rot}}
+              + \lambda_3 \mathcal{L}_{\text{fingertip pos}} \\
+              &\quad + \lambda_4 \mathcal{L}_{\text{fingertip rot}}
+              + \lambda_5 \mathcal{L}_{\text{pinch}}
+              + \mathcal{L}_{\text{joint}}
+              + \mathcal{L}_{\text{vel}}
+              \end{aligned}$$
+            </div>
 
           </div>
         </div>
       </div>
     </div>
+    <!-- End Objective Terms -->
+
 </section>
 <!-- End Method -->
 
