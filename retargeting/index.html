@@ -612,29 +612,6 @@
     <div class="box">
       <h3 class="title is-4">Real-World Teleoperated Manipulation</h3>
 
-      <!-- (Optional) Overview figures: montage + quantitative plot -->
-      <div class="columns is-vcentered">
-        <div class="column is-6">
-          <figure class="image">
-            <img src="static/images/real_tasks_grid.png" alt="Real-world tasks montage">
-          </figure>
-          <p class="is-size-7 has-text-grey">
-            Tasks: pick/place with rotation, mug with bending thumb, precise screw placement.
-          </p>
-        </div>
-
-        <div class="column is-6">
-          <figure class="image">
-            <img src="static/images/results_bars_real.png" alt="Real-world quantitative results">
-          </figure>
-          <p class="is-size-7 has-text-grey">
-            Quantitative: task success rates / time across ablations.
-          </p>
-        </div>
-      </div>
-
-      <hr>
-
       <!-- ========================= Task 1 ========================= -->
       <div class="content">
         <p class="is-size-5 mb-3">
@@ -861,6 +838,32 @@
           </div></div>
         </div>
       </div>
+
+    <hr>
+
+    <!-- ================= Overall Quantitative Results ================= -->
+    <div class="content has-text-centered">
+      <h4 class="title is-5">Results of the real-world manipulations.</h4>
+
+      <!-- <p class="is-size-6 mb-4">
+        We report task success rates across all real-world teleoperated manipulation tasks
+        under the full objective and different ablations.
+      </p> -->
+
+      <figure class="image is-inline-block">
+        <img
+          src="static/images/task.png"
+          alt="Overall real-world task success rates across tasks and ablations"
+          style="max-width: 90%; height: auto;"
+        >
+      </figure>
+
+      <p class="is-size-6 has-text-grey mt-2">
+        Task 1 and 2 are assessed by task time, while Task 3 is evaluated by success rate. 
+        Each pair of bars shows the error of one ablation implementation and the colors represent 
+        the ablation category defined in Table I. The two pilots are distinguished by hatched bars.
+      </p>
+    </div>
 
     </div>
     <!-- End Real-world manipulation -->
