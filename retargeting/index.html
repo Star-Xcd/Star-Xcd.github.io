@@ -223,6 +223,11 @@
                 using vectors <em>from DIP joints to fingertips</em> to ensure correct contact normals
                 for fine manipulation.
               </li>
+
+              <li class="obj-item" data-key="total">
+                <strong>Complete retargeting objective</strong>:
+                combining all the above terms with joint regularization (prevent undesired joint configurations) 
+                and velocity regularization (encourage smooth motion).
             </ul>
           </div>
         </div>
@@ -289,32 +294,6 @@
         We analyze the significance of different retargeting objectives via
         <strong>kinematic posture retargeting</strong> and <strong>real-world teleoperated manipulation</strong>.
       </p>
-    </div>
-
-
-    <!-- Our Method (terms) -->
-    <div class="box">
-      <h3 class="title is-4">Our Method: Objective Terms</h3>
-      <div class="columns is-vcentered">
-        <div class="column is-6">
-          <div class="content">
-            <ul>
-              <li><strong>Fingertip orientations</strong>: vectors from DIP joints to fingertips to ensure correct contact normals for fine manipulation.</li>
-              <li><strong>Overall hand shape</strong>: fingertip positions relative to the wrist to preserve human-hand posture.</li>
-              <li><strong>Relative fingertip positions</strong>: spatial relationship between thumb-tip and primary fingertips to enable precise coordination (e.g., pinching).</li>
-              <li><strong>Global hand pose</strong>: thumb-tip position term (instead of typical wrist position) with small wrist-orientation weight to allow flexible wrist adjustment.</li>
-              <li><strong>Joint regularization</strong>: prevents undesired joint configurations.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="column is-6 has-text-centered">
-          <!-- Put a clean figure here: hand/robot hand + legend -->
-          <figure class="image">
-            <img src="static/images/method_terms.png" alt="Objective terms illustration">
-          </figure>
-          <p class="is-size-7 has-text-grey">Figure: objective terms illustration (from poster / paper figure).</p>
-        </div>
-      </div>
     </div>
 
     <!-- Ablation setup -->
