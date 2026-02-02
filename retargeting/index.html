@@ -326,7 +326,6 @@
           error relative to the wrist, 3) average fingertip position error relative to the thumb, and 4) average fingertip orientation error.
         </p>
       </div>
-      <hr>
 
       <hr>
 
@@ -380,78 +379,155 @@
 
         <!-- (3) Video comparisons -->
         <div class="content">
-          <p class="mb-2">
-            <strong>Video comparisons.</strong>
-            We show the human-hand motion, the retargeted robot-hand behavior using the full objective,
-            and three representative ablations for side-by-side comparison.
+          <p class="mb-4">
+            <strong>Real-world kinematic postures retargeting results.</strong>
+            We choose 3 ablations (A1, A3, and A7). From left to right, we show the human-hand demonstration,
+            the posture retargeting result using the full objective, and the result under the corresponding ablation.
           </p>
         </div>
 
-        <!-- Row 1: Human + Full -->
+        <!-- Column headers -->
+        <div class="columns has-text-centered is-variable is-2 mb-2">
+          <div class="column is-4">
+            <p class="has-text-weight-semibold">Human demo</p>
+          </div>
+          <div class="column is-4">
+            <p class="has-text-weight-semibold">Full objective</p>
+          </div>
+          <div class="column is-4">
+            <p class="has-text-weight-semibold">Ablation</p>
+          </div>
+        </div>
+
+        <!-- ================= Row 1 ================= -->
         <div class="columns is-variable is-3">
-          <div class="column is-6">
+
+          <!-- Human -->
+          <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Human hand</p>
                 <video controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/kin_human.mp4" type="video/mp4">
                 </video>
-                <p class="is-size-7 has-text-grey mt-2">Input human-hand motion.</p>
+                <p class="is-size-7 has-text-grey mt-2">Human-hand motion.</p>
               </div>
             </div>
           </div>
 
-          <div class="column is-6">
+          <!-- Full -->
+          <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Robot (Full objective)</p>
                 <video controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/kin_full.mp4" type="video/mp4">
                 </video>
-                <p class="is-size-7 has-text-grey mt-2">Full formulation retargeting result.</p>
+                <p class="is-size-7 has-text-grey mt-2">Full objective.</p>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Row 2: 3 ablations -->
-        <div class="columns is-variable is-3">
+          <!-- Ablation 1 -->
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Ablation 1 (e.g., w/o pinch)</p>
                 <video controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/kin_ablation1.mp4" type="video/mp4">
                 </video>
-                <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+                <p class="is-size-7 has-text-grey mt-2">
+                  Ablation 1 (e.g., w/o pinch): degraded fingertip coordination.
+                </p>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <!-- ================= Row 2 ================= -->
+        <div class="columns is-variable is-3">
+
+          <!-- Human -->
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Ablation 2 (e.g., w/o orientation)</p>
+                <video controls muted playsinline width="100%" preload="metadata">
+                  <source src="static/videos/kin_human.mp4" type="video/mp4">
+                </video>
+                <p class="is-size-7 has-text-grey mt-2">Human-hand motion.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full -->
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <video controls muted playsinline width="100%" preload="metadata">
+                  <source src="static/videos/kin_full.mp4" type="video/mp4">
+                </video>
+                <p class="is-size-7 has-text-grey mt-2">Full objective.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ablation 2 -->
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
                 <video controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/kin_ablation2.mp4" type="video/mp4">
                 </video>
-                <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+                <p class="is-size-7 has-text-grey mt-2">
+                  Ablation 2 (e.g., w/o orientation): unnatural finger bending.
+                </p>
               </div>
             </div>
           </div>
 
+        </div>
+
+        <!-- ================= Row 3 ================= -->
+        <div class="columns is-variable is-3">
+
+          <!-- Human -->
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <p class="title is-6">Ablation 3 (e.g., w/o hand pose)</p>
                 <video controls muted playsinline width="100%" preload="metadata">
-                  <source src="static/videos/kin_ablation3.mp4" type="video/mp4">
+                  <source src="static/videos/kin_human.mp4" type="video/mp4">
                 </video>
-                <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+                <p class="is-size-7 has-text-grey mt-2">Human-hand motion.</p>
               </div>
             </div>
           </div>
+
+          <!-- Full -->
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <video controls muted playsinline width="100%" preload="metadata">
+                  <source src="static/videos/kin_full.mp4" type="video/mp4">
+                </video>
+                <p class="is-size-7 has-text-grey mt-2">Full objective.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ablation 3 -->
+          <div class="column is-4">
+            <div class="card">
+              <div class="card-content">
+                <video controls muted playsinline width="100%" preload="metadata">
+                  <source src="static/videos/kin_ablation3.mp4" type="video/mp4">
+                </video>
+                <p class="is-size-7 has-text-grey mt-2">
+                  Ablation 3 (e.g., w/o global hand pose): unstable wrist and fingertip drift.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
+
 
       </div>
     <!-- End Kinematic posture retargeting -->
