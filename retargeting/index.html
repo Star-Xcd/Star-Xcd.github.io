@@ -232,33 +232,32 @@
         <!-- Right: mathematical formulation -->
         <div class="column is-6">
           <div class="content">
-            <p><strong>Global hand pose</strong></p>
-            $$\mathcal{L}_{\text{hand\_pose}}
-            = \lVert p^{h}_{\text{thumb}} - p^{r}_{\text{thumb}} \rVert_2^2
-            + \beta_{\text{rot}}\, \text{angle}(q^{h}_{\text{wrist}}, q^{r}_{\text{wrist}})$$
 
-            <p><strong>Overall hand shape</strong></p>
-            $$\mathcal{L}_{\text{fingertip\_pos}}
-            = \sum_{i=1}^{N} \lVert v_i^{h} - v_i^{r} \rVert_2^2$$
+            $$\mathcal{L}_{\text{hand pose}}
+            = \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2
+            + \beta_{\text{rot}}\, \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)$$
 
-            <p><strong>Relative fingertip positions</strong></p>
+            $$\mathcal{L}_{\text{fingertip pos}}
+            = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2$$
+
             $$\mathcal{L}_{\text{pinch}}
-            = \sum_{i=1}^{N-1} s(d_i)
-            \lVert \gamma_i^{r} - l(d_i)\gamma_i^{h} \rVert_2^2$$
+            = \sum_{i=1}^{N-1} s(d_i)\,
+            \left\lVert \boldsymbol{\gamma}^{\,r}_{i} - l(d_i)\,\hat{\boldsymbol{\gamma}}^{\,h}_{i} \right\rVert_2^2$$
 
-            <p><strong>Fingertip orientations</strong></p>
-            $$\mathcal{L}_{\text{fingertip\_rot}}
-            = \sum_{i=1}^{N} \lVert r_i^{h} - r_i^{r} \rVert_2^2$$
+            $$\mathcal{L}_{\text{fingertip rot}}
+            = \sum_{i=1}^{N} \left\lVert \mathbf{r}^{\,h}_{i} - \mathbf{r}^{\,r}_{i} \right\rVert_2^2$$
 
-            <p><strong>Complete objective</strong></p>
-            $$\mathcal{L}_{\text{total}}
-            = \lambda_1 \mathcal{L}_{\text{thumb\_pos}}
-            + \lambda_2 \mathcal{L}_{\text{wrist\_rot}}
-            + \lambda_3 \mathcal{L}_{\text{fingertip\_pos}}
-            + \lambda_4 \mathcal{L}_{\text{fingertip\_rot}}
+            $$\begin{aligned}
+            \mathcal{L}_{\text{total}}
+            &= \lambda_1 \mathcal{L}_{\text{thumb pos}}
+            + \lambda_2 \mathcal{L}_{\text{wrist rot}}
+            + \lambda_3 \mathcal{L}_{\text{fingertip pos}} \\
+            &\quad + \lambda_4 \mathcal{L}_{\text{fingertip rot}}
             + \lambda_5 \mathcal{L}_{\text{pinch}}
             + \mathcal{L}_{\text{joint}}
-            + \mathcal{L}_{\text{vel}}$$
+            + \mathcal{L}_{\text{vel}}
+            \end{aligned}$$
+
           </div>
         </div>
       </div>
