@@ -1,169 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>All Ablation Videos – Kinematic Posture Retargeting</title>
+  <title>More Videos — Retargeting</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="../static/css/bulma.min.css">
-  <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="../static/css/index.css">
+
+  <style>
+    /* Page spacing */
+    .mv-container { padding: 2.5rem 1.25rem; }
+
+    /* Make videos look consistent */
+    .mv-video {
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    /* Small label under each video */
+    .mv-label {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #4a4a4a;
+      text-align: left;
+    }
+
+    /* Tighten spacing between rows */
+    .mv-row { margin-bottom: 1.6rem; }
+
+    /* Optional: slightly reduce column padding */
+    .mv-col { padding: 0.75rem; }
+
+    /* Responsive tweak: on mobile, stack */
+    @media (max-width: 768px) {
+      .mv-label { text-align: left; }
+    }
+  </style>
 </head>
 
 <body>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-max-desktop mv-container">
 
-    <!-- ================= Header ================= -->
-    <div class="has-text-centered mb-6">
-      <h1 class="title is-2">All Ablation Videos – Kinematic Posture Retargeting</h1>
-      <p class="subtitle is-5">
-        Full set of ablation comparisons for kinematic posture retargeting.
-      </p>
+    <!-- Row 1: Human + Full -->
+    <div class="columns mv-row is-variable is-4">
+      <div class="column mv-col is-6">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/human.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>Human</strong></div>
+      </div>
 
-      <a href="../" class="button is-light is-rounded mt-3">
-        ← Back to main page
-      </a>
-    </div>
-
-    <!-- ================= Row 1: Human + Full ================= -->
-    <div class="box">
-      <h2 class="title is-4">Reference Comparison</h2>
-
-      <div class="columns is-variable is-4">
-        <div class="column is-6">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">Human demo</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/human.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-6">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">Robot (Full objective)</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/full.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
+      <div class="column mv-col is-6">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/full.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>Full</strong></div>
       </div>
     </div>
 
-    <!-- ================= Row 2: Ablation A1–A4 ================= -->
-    <div class="box">
-      <h2 class="title is-4">Ablations A1–A4</h2>
+    <!-- Row 2: A1 A2 -->
+    <div class="columns mv-row is-variable is-4">
+      <div class="column mv-col is-6">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a1.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A1</strong></div>
+      </div>
 
-      <div class="columns is-multiline is-variable is-3">
-
-        <!-- A1 -->
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A1 (w/o pinch)</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a1.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <!-- A2 -->
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A2 (w/o hand shape)</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a2.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <!-- A3 -->
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A3 (w/o fingertip rot)</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a3.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <!-- A4 -->
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A4 (w/o thumb ref)</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a4.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
+      <div class="column mv-col is-6">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a2.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A2</strong></div>
       </div>
     </div>
 
-    <!-- ================= Row 3: Ablation A5–A8 ================= -->
-    <div class="box">
-      <h2 class="title is-4">Ablations A5–A8</h2>
+    <!-- Row 3: A3 A4 A5 -->
+    <div class="columns mv-row is-variable is-4">
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a3.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A3</strong></div>
+      </div>
 
-      <div class="columns is-multiline is-variable is-3">
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a4.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A4</strong></div>
+      </div>
 
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A5</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a5.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a5.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A5</strong></div>
+      </div>
+    </div>
 
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A6</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a6.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
+    <!-- Row 4: A6 A7 A8 -->
+    <div class="columns mv-row is-variable is-4">
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a6.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A6</strong></div>
+      </div>
 
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A7</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a7.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a7.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A7</strong></div>
+      </div>
 
-        <div class="column is-3">
-          <div class="card">
-            <div class="card-content">
-              <p class="title is-6">A8</p>
-              <video autoplay loop muted playsinline controls width="100%">
-                <source src="../static/videos/a8.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
+      <div class="column mv-col is-4">
+        <video class="mv-video" controls muted playsinline preload="metadata" autoplay loop>
+          <source src="../static/videos/more/a8.mp4" type="video/mp4">
+        </video>
+        <div class="mv-label"><strong>A8</strong></div>
       </div>
     </div>
 
