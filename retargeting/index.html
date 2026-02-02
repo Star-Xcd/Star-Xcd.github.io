@@ -315,47 +315,139 @@
     <!-- Kinematic posture retargeting -->
     <div class="box">
       <h3 class="title is-4">Kinematic Posture Retargeting</h3>
-      <div class="columns is-vcentered">
-        <div class="column is-6">
+
+      <!-- (1) Setup -->
+      <div class="content">
+        <p>
+          <strong>Setup.</strong>
+          We evaluate the full retargeting objective and eight ablations across two pieces of offline data: (1) Traj 1: a trajectory of three pinch motions 
+          involving the thumb and the index, middle, and ring fingers, respectively; (2) Traj 2: a trajectory involving finger crossing motions. The evaluation is 
+          performed on 2 types of robot hands: the LEAP hand and the Shadow hand. We use four quantitative metrics for kinematic postures: 1) average fingertip position error in the global frame, 2) average fingertip position 
+          error relative to the wrist, 3) average fingertip position error relative to the thumb, and 4) average fingertip orientation error.
+        </p>
+      </div>
+      <hr>
+
+      <!-- (2) Two simulation experiments: figures + one-line caption each -->
+      <div class="columns is-variable is-5">
+        <div class="column">
           <figure class="image">
-            <img src="static/images/kin_retargeting_grid.png" alt="Kinematic retargeting qualitative results">
+            <img src="static/images/leap_pinch.png" alt="Simulation experiment 1">
           </figure>
-          <p class="is-size-7 has-text-grey">Qualitative: failure cases when removing key terms (e.g., pinch / orientation).</p>
+          <p class="is-size-7 has-text-grey">
+            <strong>Results of kinematic posture retargeting on Traj 1 (LEAP hand).</strong> Each bar shows the error 
+            of one ablation implementation and the colors represent the ablation category defined in Table I. For the metrics of fingertip global position and fingertip relative position to the thumb, only the errors of the two fingers involved in the pinching motion are considered.
+          </p>
         </div>
-        <div class="column is-6">
+
+        <div class="column">
           <figure class="image">
-            <img src="static/images/results_bars_kin.png" alt="Kinematic retargeting quantitative results">
+            <img src="static/images/leap_complex.png" alt="Simulation experiment 2">
           </figure>
-          <p class="is-size-7 has-text-grey">Quantitative: kinematic retargeting errors across ablations.</p>
+          <p class="is-size-7 has-text-grey">
+            <strong>Results of kinematic posture retargeting on Traj 2 (LEAP hand).</strong> 
+          </p>
         </div>
+
+        <div class="column">
+          <figure class="image">
+            <img src="static/images/shadow_pinch.png" alt="Simulation experiment 3">
+          </figure>
+          <p class="is-size-7 has-text-grey">
+            <strong>Results of kinematic posture retargeting on Traj 1 (Shadow hand).</strong> 
+          </p>
+        </div>
+
+        <div class="column">
+          <figure class="image">
+            <img src="static/images/shadow_complex.png" alt="Simulation experiment 4">
+          </figure>
+          <p class="is-size-7 has-text-grey">
+            <strong>Results of kinematic posture retargeting on Traj 2 (Shadow hand).</strong> 
+          </p>
       </div>
 
-      <!-- Sub-videos (replace with your real clips) -->
-      <div class="columns">
-        <div class="column">
+      <hr>
+
+      <!-- (3) Video group: Human / Full / Ablations -->
+      <div class="content">
+        <p class="mb-2">
+          <strong>Video comparisons.</strong>
+          We show the human-hand motion, the retargeted robot-hand behavior using the full objective,
+          and three representative ablations for side-by-side comparison.
+        </p>
+      </div>
+
+      <div class="columns is-multiline is-variable is-3">
+
+        <!-- Human hand -->
+        <div class="column is-4">
           <div class="card">
             <div class="card-content">
-              <p class="title is-6">Example 1: Fingertip pinch (Full vs A1)</p>
-              <video controls muted playsinline width="100%">
-                <source src="static/videos/kin_full_vs_a1.mp4" type="video/mp4">
+              <p class="title is-6">Human hand</p>
+              <video controls muted playsinline width="100%" preload="metadata">
+                <source src="static/videos/kin_human.mp4" type="video/mp4">
               </video>
-              <p class="is-size-7 has-text-grey">Pinch success drops when removing the pinch term.</p>
+              <p class="is-size-7 has-text-grey mt-2">Input human-hand motion.</p>
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <!-- Full formulation -->
+        <div class="column is-4">
           <div class="card">
             <div class="card-content">
-              <p class="title is-6">Example 2: Fingertip orientation (Full vs A3)</p>
-              <video controls muted playsinline width="100%">
-                <source src="static/videos/kin_full_vs_a3.mp4" type="video/mp4">
+              <p class="title is-6">Robot (Full objective)</p>
+              <video controls muted playsinline width="100%" preload="metadata">
+                <source src="static/videos/kin_full.mp4" type="video/mp4">
               </video>
-              <p class="is-size-7 has-text-grey">Without the orientation term, fingers fail to bend naturally.</p>
+              <p class="is-size-7 has-text-grey mt-2">Full formulation retargeting result.</p>
             </div>
           </div>
         </div>
+
+        <!-- Ablation 1 -->
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Ablation 1 (e.g., w/o pinch)</p>
+              <video controls muted playsinline width="100%" preload="metadata">
+                <source src="static/videos/kin_ablation1.mp4" type="video/mp4">
+              </video>
+              <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ablation 2 -->
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Ablation 2 (e.g., w/o orientation)</p>
+              <video controls muted playsinline width="100%" preload="metadata">
+                <source src="static/videos/kin_ablation2.mp4" type="video/mp4">
+              </video>
+              <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ablation 3 -->
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">Ablation 3 (e.g., w/o hand pose)</p>
+              <video controls muted playsinline width="100%" preload="metadata">
+                <source src="static/videos/kin_ablation3.mp4" type="video/mp4">
+              </video>
+              <p class="is-size-7 has-text-grey mt-2">Replace caption: what term removed and what fails.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
 
     <!-- Real-world manipulation -->
     <div class="box">
