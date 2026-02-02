@@ -233,9 +233,12 @@
         <div class="column is-6">
           <div class="content">
 
-            $$\mathcal{L}_{\text{hand pose}}
-            = \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2
-            + \beta_{\text{rot}}\, \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)$$
+            $$\begin{aligned}
+            \mathcal{L}_{\text{hand pose}}
+            &= \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2 \\
+            &\quad + \beta_{\text{rot}}\,
+            \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)
+            \end{aligned}$$
 
             $$\mathcal{L}_{\text{fingertip pos}}
             = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2$$
