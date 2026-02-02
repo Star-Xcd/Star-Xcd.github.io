@@ -80,3 +80,60 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = document.querySelectorAll(".sync-video");
+
+  // 按 group 分组
+  const groups = {};
+  videos.forEach(video => {
+    const group = video.dataset.syncGroup;
+    if (!groups[group]) groups[group] = [];
+    groups[group].push(video);
+  });
+
+  Object.values(groups).forEach(groupVideos => {
+    let isSyncing = false;
+
+    groupVideos.forEach(video => {
+
+      // Play
+      video.addEventListener("play", () => {
+        if (isSyncing) return;
+        isSyncing = true;
+        groupVideos.forEach(v => {
+          if (v !== video && v.paused) {
+            v.currentTime = video.currentTime;
+            v.play();
+          }
+        });
+        isSyncing = false;
+      });
+
+      // Pause
+      video.addEventListener("pause", () => {
+        if (isSyncing) return;
+        isSyncing = true;
+        groupVideos.forEach(v => {
+          if (v !== video && !v.paused) {
+            v.pause();
+          }
+        });
+        isSyncing = false;
+      });
+
+      // Seek
+      video.addEventListener("seeking", () => {
+        if (isSyncing) return;
+        isSyncing = true;
+        groupVideos.forEach(v => {
+          if (v !== video) {
+            v.currentTime = video.currentTime;
+          }
+        });
+        isSyncing = false;
+      });
+
+    });
+  });
+});

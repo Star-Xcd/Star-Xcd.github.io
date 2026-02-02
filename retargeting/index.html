@@ -400,13 +400,16 @@
         </div>
 
         <!-- ================= Row 1 ================= -->
-        <div class="columns is-variable is-3">
+        <div class="columns is-variable is-3" data-sync-row="row1">
 
           <!-- Human -->
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <video controls muted playsinline width="100%" preload="metadata">
+                <video
+                  class="sync-video"
+                  data-sync-group="row1"
+                  controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/pos_human_s.mp4" type="video/mp4">
                 </video>
                 <p class="is-size-7 has-text-grey mt-2">Human-hand motion.</p>
@@ -418,7 +421,10 @@
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <video controls muted playsinline width="100%" preload="metadata">
+                <video
+                  class="sync-video"
+                  data-sync-group="row1"
+                  controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/pos_full_s.mp4" type="video/mp4">
                 </video>
                 <p class="is-size-7 has-text-grey mt-2">Full objective.</p>
@@ -426,11 +432,14 @@
             </div>
           </div>
 
-          <!-- Ablation 1 -->
+          <!-- Ablation -->
           <div class="column is-4">
             <div class="card">
               <div class="card-content">
-                <video controls muted playsinline width="100%" preload="metadata">
+                <video
+                  class="sync-video"
+                  data-sync-group="row1"
+                  controls muted playsinline width="100%" preload="metadata">
                   <source src="static/videos/pos_a1_s.mp4" type="video/mp4">
                 </video>
                 <p class="is-size-7 has-text-grey mt-2">
