@@ -292,7 +292,7 @@
     <div class="content has-text-centered">
       <p class="is-size-5">
         We analyze the significance of different retargeting objectives via
-        <strong>kinematic posture retargeting</strong> and <strong>real-world teleoperated manipulation</strong>.
+        <strong>kinematic posture retargeting</strong> and <strong>real-world teleoperation manipulation</strong>.
       </p>
     </div>
 
@@ -611,55 +611,260 @@
     <!-- Real-world manipulation -->
     <div class="box">
       <h3 class="title is-4">Real-World Teleoperated Manipulation</h3>
+
+      <!-- (Optional) Overview figures: montage + quantitative plot -->
       <div class="columns is-vcentered">
         <div class="column is-6">
           <figure class="image">
             <img src="static/images/real_tasks_grid.png" alt="Real-world tasks montage">
           </figure>
-          <p class="is-size-7 has-text-grey">Tasks: pick/place with rotation, mug with bending thumb, precise screw placement.</p>
+          <p class="is-size-7 has-text-grey">
+            Tasks: pick/place with rotation, mug with bending thumb, precise screw placement.
+          </p>
         </div>
+
         <div class="column is-6">
           <figure class="image">
             <img src="static/images/results_bars_real.png" alt="Real-world quantitative results">
           </figure>
-          <p class="is-size-7 has-text-grey">Quantitative: task success rates / time across ablations.</p>
+          <p class="is-size-7 has-text-grey">
+            Quantitative: task success rates / time across ablations.
+          </p>
         </div>
       </div>
 
-      <!-- Task videos -->
-      <div class="columns">
-        <div class="column">
+      <hr>
+
+      <!-- ========================= Task 1 ========================= -->
+      <div class="content">
+        <p class="is-size-5 mb-3">
+          <strong>Task 1.</strong> Pick, rotate by 90°, and place.
+          <!-- TODO: add 1–2 sentences describing what is challenging and what term matters -->
+        </p>
+      </div>
+
+      <!-- Column headers -->
+      <div class="columns is-variable is-3 mb-2">
+        <div class="column is-4 has-text-centered"><strong>Full objective</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation A</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation B</strong></div>
+      </div>
+
+      <!-- Row 1: Robot hand -->
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
           <div class="card">
             <div class="card-content">
-              <p class="title is-6">Task 1: Pick, rotate by 90°, and place</p>
-              <video controls muted playsinline width="100%">
-                <source src="static/videos/task1_pick_place.mp4" type="video/mp4">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_robot_full.mp4" type="video/mp4">
               </video>
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <div class="column is-4">
           <div class="card">
             <div class="card-content">
-              <p class="title is-6">Task 2: Drag a mug with a bending thumb</p>
-              <video controls muted playsinline width="100%">
-                <source src="static/videos/task2_mug_thumb.mp4" type="video/mp4">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_robot_a.mp4" type="video/mp4">
               </video>
             </div>
           </div>
         </div>
-        <div class="column">
+
+        <div class="column is-4">
           <div class="card">
             <div class="card-content">
-              <p class="title is-6">Task 3: Place small screws precisely with fingertips</p>
-              <video controls muted playsinline width="100%">
-                <source src="static/videos/task3_screw_fingertips.mp4" type="video/mp4">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_robot_b.mp4" type="video/mp4">
               </video>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Row 2: Human hand -->
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_human_full.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_human_a.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/task1_human_b.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- ========================= Task 2 ========================= -->
+      <div class="content">
+        <p class="is-size-5 mb-3">
+          <strong>Task 2.</strong> Drag a mug with a bending thumb.
+          <!-- TODO: add 1–2 sentences -->
+        </p>
+      </div>
+
+      <div class="columns is-variable is-3 mb-2">
+        <div class="column is-4 has-text-centered"><strong>Full objective</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation A</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation B</strong></div>
+      </div>
+
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_robot_full.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_robot_a.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_robot_b.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_human_full.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_human_a.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task2_human_b.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- ========================= Task 3 ========================= -->
+      <div class="content">
+        <p class="is-size-5 mb-3">
+          <strong>Task 3.</strong> Place small screws precisely with fingertips.
+          <!-- TODO: add 1–2 sentences -->
+        </p>
+      </div>
+
+      <div class="columns is-variable is-3 mb-2">
+        <div class="column is-4 has-text-centered"><strong>Full objective</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation A</strong></div>
+        <div class="column is-4 has-text-centered"><strong>Ablation B</strong></div>
+      </div>
+
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_robot_full.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_robot_a.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Robot</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_robot_b.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_human_full.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_human_a.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+        <div class="column is-4">
+          <div class="card"><div class="card-content">
+            <p class="is-size-7 has-text-grey mb-2"><strong>Human</strong></p>
+            <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+              <source src="static/videos/task3_human_b.mp4" type="video/mp4">
+            </video>
+          </div></div>
+        </div>
+      </div>
+
     </div>
+    <!-- End Real-world manipulation -->
+
 
     <!-- Key takeaways -->
     <div class="box">
