@@ -162,4 +162,31 @@ body {
 }
 
 
+/* ===== More-videos 4x4 grid ===== */
+.mv-grid-4x4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;            /* grid gap */
+  align-items: start;
+}
+
+/* each cell */
+.mv-grid-4x4 .mv-cell {
+  width: 100%;
+}
+
+/* make sure videos look uniform */
+.mv-grid-4x4 .mv-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* responsive: 2 columns on small screens */
+@media (max-width: 768px) {
+  .mv-grid-4x4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
