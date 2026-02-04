@@ -163,7 +163,8 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <!-- Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
+        This video is an overview of our method and experimental results, including kinematic posture retargeting, real-world manipulation tasks, 
+        and trials on more complex manipulation tasks.
       </h2>
     </div>
   </div>
@@ -440,7 +441,7 @@
 
       <!-- Row 1 caption (single line for the whole row) -->
       <p class="is-size-6 has-text-grey mt-2 mb-5">
-        <strong>Ablation 1 (i.e., w/o pinch term):</strong> less precise pinch.
+        <strong>Ablation 1 (i.e., w/o pinch term):</strong> less precise pinch (cannot close the gap between thumb and primary fingertips).
       </p>
 
       <!-- ================= Row 2 ================= -->
@@ -516,7 +517,7 @@
 
       <!-- Row 3 caption -->
       <p class="is-size-6 has-text-grey mt-2">
-        <strong>Ablation 7 (i.e., w/o joint position regularization):</strong> unnatural joint positions.
+        <strong>Ablation 7 (i.e., w/o joint position regularization):</strong> the hand displays undesired joint configurations.
       </p>
 
       <!-- More videos button -->
@@ -611,6 +612,10 @@
         </div>
       </div>
 
+      <p class="is-size-6 has-text-grey mt-2 mb-5">
+        All ablations show similar performance in such simple pick-and-place tasks which do not require precise fingertip coordination or accurate contacts.
+      </p>
+
       <hr>
 
       <!-- ========================= Task 2 ========================= -->
@@ -674,6 +679,11 @@
         </div>
       </div>
 
+      <p class="is-size-6 has-text-grey mt-2 mb-5">
+        In <strong>A3</strong> and <strong>A6</strong>, no consideration of fingertip orientations results in poor performance as the robot hand fails 
+        to replicate the finger bending motion of the human pilots to hook the mug handle.
+      </p>
+
       <hr>
 
       <!-- ========================= Task 3 ========================= -->
@@ -735,6 +745,13 @@
           </div></div>
         </div>
       </div>
+
+      <p class="is-size-6 has-text-grey mt-2 mb-5">
+        Using actual pinch distances without rescaling in <strong>A2</strong> could lead to low success rate in real-world manipulation tasks, 
+        primarily due to that using actual pinch distance is vulnerable to human finger tracking inaccuracy.  
+        In <strong>A3</strong>, the missing of fingertip orientation information also has negative impacts on precise manipulation tasks, 
+        as inaccuracy in orientation leads to undesired contact normals with the object.
+      </p>
 
     <!-- More videos button -->
     <!-- <div class="has-text-centered mt-5">
