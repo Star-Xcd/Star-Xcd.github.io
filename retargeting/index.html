@@ -207,7 +207,7 @@
               <li class="obj-item" data-key="hand_pose">
                 <strong>Global hand pose</strong>:
                 using <strong>thumb-tip position term</strong> (instead of typical wrist position term) and
-                wrist orientation term (with small weight)
+                wrist orientation term (with small weight).
               </li>
 
               <li class="obj-item" data-key="fingertip_pos">
@@ -268,9 +268,9 @@
               $$\begin{aligned}
               \mathcal{L}_{\text{total}}
               &= \lambda_1 \mathcal{L}_{\text{thumb pos}}
-              + \lambda_2 \mathcal{L}_{\text{wrist rot}}
-              + \lambda_3 \mathcal{L}_{\text{fingertip pos}} \\
-              &\quad + \lambda_4 \mathcal{L}_{\text{fingertip rot}}
+              + \lambda_2 \mathcal{L}_{\text{wrist rot}} \\
+              + \lambda_3 \mathcal{L}_{\text{fingertip pos}} 
+              &\quad + \lambda_4 \mathcal{L}_{\text{fingertip rot}} \\
               + \lambda_5 \mathcal{L}_{\text{pinch}}
               + \mathcal{L}_{\text{joint}}
               + \mathcal{L}_{\text{vel}}
