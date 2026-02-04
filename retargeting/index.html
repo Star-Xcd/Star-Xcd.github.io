@@ -182,9 +182,11 @@
       <figure class="image">
         <img src="static/images/teaser_method.png" alt="Method teaser" style="width: 50%; display: block; margin: 0 auto;">
       </figure>
+      <br>
       <p class="is-size-6 has-text-grey">
          Crucial objectives in human-to-robot retargeting for dexterous manipulation. We explore the appropriate formulation of these objectives and experimentally analyze their significance for different manipulation tasks.
       </p>
+      <br>
     </div>
 
     <!-- Objective Terms -->
@@ -243,23 +245,23 @@
               &= \left\lVert \mathbf{p}^{\,h}_{\text{thumb}} - \mathbf{p}^{\,r}_{\text{thumb}} \right\rVert_2^2 \\
               &\quad + \beta_{\text{rot}}\,
               \mathrm{angle}\!\left(\mathbf{q}^{\,h}_{\text{wrist}},\, \mathbf{q}^{\,r}_{\text{wrist}}\right)
-              \end{aligned}$$
+              \end{aligned}\tag{1}$$
             </div>
 
             <div class="eq-item" data-key="fingertip_pos">
               $$\mathcal{L}_{\text{fingertip pos}}
-              = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2$$
+              = \sum_{i=1}^{N} \left\lVert \mathbf{v}^{\,h}_{i} - \mathbf{v}^{\,r}_{i} \right\rVert_2^2\tag{2}$$
             </div>
 
             <div class="eq-item" data-key="pinch">
               $$\mathcal{L}_{\text{pinch}}
               = \sum_{i=1}^{N-1} s(d_i)\,
-              \left\lVert \boldsymbol{\gamma}^{\,r}_{i} - l(d_i)\,\hat{\boldsymbol{\gamma}}^{\,h}_{i} \right\rVert_2^2$$
+              \left\lVert \boldsymbol{\gamma}^{\,r}_{i} - l(d_i)\,\hat{\boldsymbol{\gamma}}^{\,h}_{i} \right\rVert_2^2\tag{3}$$
             </div>
 
             <div class="eq-item" data-key="fingertip_rot">
               $$\mathcal{L}_{\text{fingertip rot}}
-              = \sum_{i=1}^{N} \left\lVert \mathbf{r}^{\,h}_{i} - \mathbf{r}^{\,r}_{i} \right\rVert_2^2$$
+              = \sum_{i=1}^{N} \left\lVert \mathbf{r}^{\,h}_{i} - \mathbf{r}^{\,r}_{i} \right\rVert_2^2\tag{5}$$
             </div>
 
             <div class="eq-item" data-key="total">
@@ -272,7 +274,7 @@
               + \lambda_5 \mathcal{L}_{\text{pinch}}
               + \mathcal{L}_{\text{joint}}
               + \mathcal{L}_{\text{vel}}
-              \end{aligned}$$
+              \end{aligned}\tag{6}$$
             </div>
 
           </div>
