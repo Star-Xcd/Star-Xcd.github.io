@@ -384,224 +384,145 @@
         <hr>
 
         <!-- (3) Video comparisons -->
-        <div class="content">
-          <p class="mb-4">
-            <strong>Real-world kinematic postures retargeting results.</strong>
-            We choose 3 ablations (A1, A3, and A7). From left to right, we show the human-hand demonstration,
-            the posture retargeting result using the full objective, and the result under the corresponding ablation.
-          </p>
+      <div class="content">
+        <p class="mb-4">
+          <strong>Real-world kinematic postures retargeting results.</strong>
+          We choose 3 ablations (A1, A3, and A7). From left to right, we show the human-hand demonstration,
+          the posture retargeting result using the full objective, and the result under the corresponding ablation.
+        </p>
+      </div>
+
+      <!-- Column headers -->
+      <div class="columns has-text-centered is-variable is-2 mb-2">
+        <div class="column is-4">
+          <p class="has-text-weight-semibold">Human demo</p>
+        </div>
+        <div class="column is-4">
+          <p class="has-text-weight-semibold">Full objective</p>
+        </div>
+        <div class="column is-4">
+          <p class="has-text-weight-semibold">Ablation</p>
+        </div>
+      </div>
+
+      <!-- ================= Row 1 ================= -->
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_human_s.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
 
-        <!-- Column headers -->
-        <div class="columns has-text-centered is-variable is-2 mb-2">
-          <div class="column is-4">
-            <p class="has-text-weight-semibold">Human demo</p>
-          </div>
-          <div class="column is-4">
-            <p class="has-text-weight-semibold">Full objective</p>
-          </div>
-          <div class="column is-4">
-            <p class="has-text-weight-semibold">Ablation</p>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_full_s.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
         </div>
 
-        <!-- ================= Row 1 ================= -->
-        <div class="columns is-variable is-3">
-
-          <!-- Human -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_human_s.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Human-hand motion.</p>
-              </div>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_a1_s.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
+        </div>
+      </div>
 
-          <!-- Full -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_full_s.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Full objective.</p>
-              </div>
+      <!-- Row 1 caption (single line for the whole row) -->
+      <p class="is-size-6 has-text-grey mt-2 mb-5">
+        <strong>Ablation 1 (i.e., w/o pinch term):</strong> less precise pinch.
+      </p>
+
+      <!-- ================= Row 2 ================= -->
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_human_s2.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
-
-          <!-- Ablation 1 -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_a1_s.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">
-                  <strong>Ablation 1 (i.e., w/o pinch term) </strong> less precise pinch.
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
 
-
-        <!-- ================= Row 2 ================= -->
-        <div class="columns is-variable is-3">
-
-          <!-- Human -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_human_s2.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Human-hand motion.</p>
-              </div>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_full_s2.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
-
-          <!-- Full -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_full_s2.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Full objective.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ablation 2 -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_a3_s2.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">
-                  <strong>Ablation 3 (i.e., w/o fingetip orientation term) </strong> mismatched finger orientation.
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
 
-        <!-- ================= Row 3 ================= -->
-        <div class="columns is-variable is-3">
-
-          <!-- Human -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_human_s3.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Human-hand motion.</p>
-              </div>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_a3_s2.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
-
-          <!-- Full -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_full_s3.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">Full objective.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Ablation 3 -->
-          <div class="column is-4">
-            <div class="card">
-              <div class="card-content">
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  controls
-                  width="100%"
-                  preload="metadata">
-                  <source src="static/videos/pos_a7_s3.mp4" type="video/mp4">
-                </video>
-                <p class="is-size-6 has-text-grey mt-2">
-                  <strong>Ablation 7 (i.e., w/o joint position regularization) </strong> unnatural joint positions.
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
+      </div>
+
+      <!-- Row 2 caption -->
+      <p class="is-size-6 has-text-grey mt-2 mb-5">
+        <strong>Ablation 3 (i.e., w/o fingertip orientation term):</strong> mismatched finger orientation.
+      </p>
+
+      <!-- ================= Row 3 ================= -->
+      <div class="columns is-variable is-3">
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_human_s3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_full_s3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-content">
+              <video autoplay loop muted playsinline controls width="100%" preload="metadata">
+                <source src="static/videos/pos_a7_s3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 caption -->
+      <p class="is-size-6 has-text-grey mt-2">
+        <strong>Ablation 7 (i.e., w/o joint position regularization):</strong> unnatural joint positions.
+      </p>
 
       <!-- More videos button -->
       <div class="has-text-centered mt-5">
         <a href="more_videos_pos/" class="button is-link is-rounded is-medium">
-        All Ablation Videos
+          All Ablation Videos
         </a>
       </div>
 
