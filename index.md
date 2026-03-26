@@ -6,13 +6,15 @@ show_excerpts: false
 entries_layout: none
 ---
 
-<!-- I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907!) -->
+I'm Chendong Xin, a senior undergraduate at Tsinghua University. I am currently working with Prof. Xiang Li at the Intelligent Robotic Manipulation Lab in the Department of Automation. I have also worked with Prof. Shuran Song at the REALab at Stanford University. My research focuses on robotic manipulation, with an emphasis on learning from human data and enabling dexterous, contact-rich manipulations. I am particularly interested in building robot learning systems that work reliably in real-world settings.
 
-I'm Chendong Xin, a senior undergraduate at Tsinghua University. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907!)
+My interest in robotics started when I participated in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) (Team 6907) during high school.
 
-## Background
+I am an incoming PhD student at Georgia Tech, where I will work with Prof. Danfei Xu.
 
-I am particularly interested in robotic manipulation and the real-world deployment of robot learning methods. My research focuses on enabling robots to achieve human-level accuracy and robustness in manipulation tasks. In the long term, I aim to advance the capabilities of dexterous manipulation for complex tasks through learning-based approaches, and to bridge the gap between simulation and real-world performance.
+<!-- ## Background
+
+I am particularly interested in robotic manipulation and the real-world deployment of robot learning methods. My research focuses on enabling robots to achieve human-level accuracy and robustness in manipulation tasks. In the long term, I aim to advance the capabilities of dexterous manipulation for complex tasks through learning-based approaches, and to bridge the gap between simulation and real-world performance. -->
 
 ## Research Interests
 
