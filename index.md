@@ -6,7 +6,9 @@ show_excerpts: false
 entries_layout: none
 ---
 
-I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907!)
+<!-- I'm **Chendong Xin**, an undergraduate researcher passionate about advancing robotics and AI technologies. Currently pursuing my studies while conducting research in **robotic manipulation** and **human-robot interaction**. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907!) -->
+
+I'm Chendong Xin, a senior undergraduate at Tsinghua University. My interest in robotics starts when I participate the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in my high school. (Our team number is 6907!)
 
 ## Background
 
