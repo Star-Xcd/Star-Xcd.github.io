@@ -29,7 +29,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 ## Quick Links
 
 <!-- 📄 [About Me](/about/) - Learn more about my background and experience   -->
-🔬 [Projects](/projects/) - Current and past research & course projects  
+🔬 [Projects](/projects/) - Current and past research projects  
 📚 [Publications](/publications/) - Journal and conference publications  
 📋 [CV](/assets/docs/CV_ChendongXin.pdf) - Complete curriculum vitae  
 
