@@ -6,7 +6,7 @@ show_excerpts: false
 entries_layout: none
 ---
 
-I'm Chendong Xin, a senior undergraduate at Tsinghua University. I am currently working with Prof. Xiang Li at the Intelligent Robotic Manipulation Lab in the Department of Automation. I have also worked with Prof. Shuran Song at the REALab at Stanford University. My research focuses on robotic manipulation, with an emphasis on learning from human data and enabling dexterous, contact-rich manipulations. I am particularly interested in building robot learning systems that work reliably in real-world settings.
+I'm Chendong Xin, a senior undergraduate at [Tsinghua University](https://www.tsinghua.edu.cn/en/). I am currently working with Prof. Xiang Li at the [Intelligent Robotic Manipulation Lab](https://thu-irml.com) in the Department of Automation. I have also worked with Prof. Shuran Song at the [REALab](https://real.stanford.edu) at Stanford University. My research focuses on robotic manipulation, with an emphasis on learning from human data and enabling dexterous, contact-rich manipulations. I am particularly interested in building robot learning systems that work reliably in real-world settings.
 
 My interest in robotics started when I participated in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) (Team 6907) during high school.
 
