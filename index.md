@@ -20,10 +20,10 @@ I am particularly interested in robotic manipulation and the real-world deployme
 
 My work focuses on bridging the gap between human dexterity and robotic capabilities:
 
-🧠 **Learning from Diverse Data** — Learning from diverse data sources: egocentric videos, robot data, and human interventions
-🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks  
-🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation
-🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world
+🧠 **Learning from Diverse Data** — Learning from diverse data sources: egocentric videos, robot data, and human interventions  
+🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks   
+🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation  
+🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world  
 
 <!-- 🧠 **Learning from Demonstration** - Imitation learning to learn from human experts  
 🤖 **Human-to-Robot Teleoperation** - Teleoperation algorithms and systems for data collection  
