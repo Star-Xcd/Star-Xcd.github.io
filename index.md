@@ -6,15 +6,13 @@ show_excerpts: false
 entries_layout: none
 ---
 
-I'm Chendong Xin, a senior undergraduate at [Tsinghua University](https://www.tsinghua.edu.cn/en/). I am currently working with Prof. Xiang Li at the [Intelligent Robotic Manipulation Lab](https://thu-irml.com) in the Department of Automation. I have also worked with Prof. Shuran Song at the [REALab](https://real.stanford.edu) at Stanford University. My research focuses on robotic manipulation, with an emphasis on learning from human data and enabling dexterous, contact-rich manipulations. I am particularly interested in building robot learning systems that work reliably in real-world settings.
+I'm Chendong Xin, an incoming Ph.D. student in Robotics at the Georgia Institute of Technology, where I will work with [Prof. Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
+
+I received my B.Eng. in Automation from Tsinghua University, where I worked with Prof. Xiang Li in the [Intelligent Robotic Manipulation Lab](https://thu-irml.com). I also worked with [Prof. Shuran Song](https://shurans.github.io/) at the [REALab](https://real.stanford.edu) at Stanford University as an undergraduate visiting researcher.
+
+My research focuses on robot learning and robotic manipulation, with an emphasis on learning from diverse human data and enabling dexterous, contact-rich manipulation. I am particularly interested in building robotic systems that operate reliably in real-world environments.
 
 My interest in robotics started when I participated in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) (Team 6907) during high school.
-
-I am an incoming PhD student at Georgia Tech, where I will work with Prof. Danfei Xu.
-
-<!-- ## Background
-
-I am particularly interested in robotic manipulation and the real-world deployment of robot learning methods. My research focuses on enabling robots to achieve human-level accuracy and robustness in manipulation tasks. In the long term, I aim to advance the capabilities of dexterous manipulation for complex tasks through learning-based approaches, and to bridge the gap between simulation and real-world performance. -->
 
 ## Research Interests
 
@@ -25,12 +23,6 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation  
 🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world  
 
-<!-- 🧠 **Learning from Demonstration** - Imitation learning to learn from human experts  
-🤖 **Human-to-Robot Teleoperation** - Teleoperation algorithms and systems for data collection  
-🖐️ **Dexterous Manipulation** - Developing methods for complex robotic hand control   
-🧩 **Vision-Language-Action (VLA) Models** — Foundation models for generalizable robotic manipulation -->
-<!-- 👁️ **Vision-Based Grasping and Manipulation** - Integrating computer vision with manipulation -->
-
 ## Quick Links
 
 <!-- 📄 [About Me](/about/) - Learn more about my background and experience   -->
@@ -40,6 +32,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 
 ## Latest Updates
 
+- **[2026.6.27]** - I received my B.Eng. in Automation from Tsinghua University and was honored with the Outstanding Graduate Award and Outstanding Bachelor's Thesis Award.
 - **[2026.1.15]** - Our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice! 
 - **[2025.6.21]** - I start my internship at Stanford [REALab](https://real.stanford.edu) as an undergraduate visiting student, working with [Prof. Shuran Song](https://shurans.github.io)!
 - **[2025.5.22]** - We win the Picking-in-Clutter Track of [the Robotics Grasping and Manipulation Competition (RGMC)](https://sites.google.com/view/rgmc2025) at ICRA 2025!
@@ -47,19 +40,27 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 
 ## Education
 
-**Undergraduate Student**  
-Tsinghua University  
-Department of Automation  
-*Research Advisor: Xiang Li*  
-2022 - Present
+**Georgia Institute of Technology**  
+Ph.D. in Robotics  
+*Advisor: Danfei Xu*  
+2026 – Present
 
-## Internship Experience
+**Tsinghua University**  
+B.Eng. in Automation  
+2022 – 2026
 
-**Undergraduate Research Intern**  
-Stanford University  
+## Research Experience
+
+**Stanford University**  
+Undergraduate Visiting Researcher, REALab  
 *Advisor: Shuran Song*  
 2025
 
+**Tsinghua University**  
+Research Assistant, Intelligent Robotic Manipulation Lab  
+*Advisor: Xiang Li*  
+2023-2026
+
 ## Contact
 
-I'm always interested in discussing robotics, AI, and potential collaborations. Feel free to reach out via [email](mailto:xcd22@mails.tsinghua.edu.cn) or connect with me on [GitHub](https://github.com/Star-Xcd)!
+I'm always interested in discussing robotics, AI, and potential collaborations. Feel free to reach out via [email](mailto:cxin34@gatech.edu) or connect with me on [GitHub](https://github.com/Star-Xcd)!

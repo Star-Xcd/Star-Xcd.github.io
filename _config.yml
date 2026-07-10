@@ -4,10 +4,10 @@ remote_theme: mmistakes/minimal-mistakes
 locale: "en-US"
 title: "Chendong Xin"
 title_separator: "-"
-subtitle: "Robotics Undergrad Researcher"
+subtitle: "Robot Learning and Manipulation"
 name: "Chendong Xin"
 description: >-
-  An senior undergraduate from Tsinghua University, focused on robotic manipulation.
+  Incoming Ph.D. student in Robotics at Georgia Tech, focused on robot learning and robotic manipulation.
 url: "https://star-xcd.github.io"
 baseurl: ""
 repository: "Star-Xcd/star-xcd.github.io"
@@ -23,9 +23,9 @@ words_per_minute: 200
 author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
-  bio: "An senior undergraduate from Tsinghua University, focused on robotic manipulation."
-  location: "Tsinghua University, China"
-  email: "xcd22@mails.tsinghua.edu.cn"
+  bio: "Incoming Ph.D. student in Robotics at Georgia Tech, working on robot learning and manipulation."
+  # location: "Tsinghua University, China"
+  email: "cxin34@gatech.edu"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -42,7 +42,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:xcd22@mails.tsinghua.edu.cn"
+      url: "mailto:cxin34@gatech.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Star-Xcd"
@@ -103,9 +103,11 @@ defaults:
       author_profile: true
 
 # SEO settings
+
 seo:
   type: "Person"
   name: "Chendong Xin"
   links:
     - "https://github.com/Star-Xcd"
+    - "https://scholar.google.com/citations?user=XFT4DAsAAAAJ"
     - "https://star-xcd.github.io"
