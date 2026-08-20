@@ -16,13 +16,14 @@ excerpt: "The B-side of Chendong Xin — life beyond papers, robots, and the lab
   <section class="bside__entry">
     <h2>Music</h2>
     <p>I play the guitar, mostly fingerstyle, classical, and singing with acoustic guitar, plus a little electric guitar. I am especially drawn to rock and indie music: I love Post-punk, Post-rock/Instrumental Rock, and Britpop.</p>
-    <p>I record guitar-and-vocal covers. You can find them on <span class="bside__pending">Bilibili ([https://space.bilibili.com/55225837?spm_id_from=333.33.0.0])</span>.</p>
+    <p>I record guitar-and-vocal covers. You can find them on <a href="https://space.bilibili.com/55225837" target="_blank" rel="noopener noreferrer">Bilibili</a>.</p>
   </section>
 
   <section class="bside__entry">
     <h2>Films</h2>
-    <p>I love watching films. To me, film is neither purely an art of narrative nor an exercise in philosophical speculation. It reveals something about life not by offering answers or solutions, but by allowing us to encounter possibilities before we live them..</p>
-    <!-- Add favourite films here when ready. -->
+    <p>I love watching films. To me, film is neither purely an art of narrative nor an exercise in philosophical speculation. It reveals something about life not by offering answers or solutions, but by allowing us to encounter possibilities before we live them.</p>
+    <p><em>Cinema Paradiso</em> is probably my favourite film, and my favourite director is Hou Hsiao-hsien.</p>
+    <p>I'm currently watching David Lynch's <em>Twin Peaks</em> and really enjoy it!</p>
   </section>
 
   <section class="bside__entry">
