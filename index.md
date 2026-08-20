@@ -1,9 +1,7 @@
 ---
-layout: home
+layout: single
 author_profile: true
 classes: wide
-show_excerpts: false
-entries_layout: none
 ---
 
 I'm Chendong Xin, a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with [Prof. Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
@@ -22,12 +20,6 @@ My primary interests focus on bridging the gap between human dexterity and robot
 🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks   
 <!-- 🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation   -->
 🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world  
-
-## Quick Links
-
-<!-- 📄 [About Me](/about/) - Learn more about my background and experience   -->
-🔬 [Research](/research/) - Publications and selected research projects  
-📋 [CV](/assets/docs/CV_ChendongXin.pdf) - Complete curriculum vitae  
 
 ## Latest Updates
 
