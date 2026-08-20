@@ -59,6 +59,27 @@
 }
 .bside__entry p + p { grid-column: 2; }
 .bside__pending { color: var(--bside-muted); font-style: italic; }
+.bside__listening a { font-weight: 600; text-decoration: none; }
+.bside__spotify {
+  color: #1db954;
+  display: inline-block;
+  font-size: 1.15em;
+  margin-left: .15em;
+  vertical-align: -.05em;
+}
+.bside__spotify:hover { color: #168f41; }
+.bside__lfc {
+  display: inline-block;
+  line-height: 1;
+  margin-left: .12em;
+  text-decoration: none;
+  vertical-align: -.16em;
+}
+.bside__lfc img {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(98%) saturate(5350%) hue-rotate(351deg) brightness(88%) contrast(91%);
+  height: 1.25em;
+  width: auto;
+}
 .bside__footer {
   border-top: 1px solid var(--bside-line);
   color: var(--bside-muted);
