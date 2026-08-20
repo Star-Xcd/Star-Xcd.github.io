@@ -6,7 +6,7 @@ show_excerpts: false
 entries_layout: none
 ---
 
-I'm Chendong Xin, an incoming Ph.D. student in Robotics at the Georgia Institute of Technology, where I will work with [Prof. Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
+I'm Chendong Xin, a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with [Prof. Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
 
 I received my B.Eng. in Automation from Tsinghua University, where I worked with Prof. Xiang Li in the [Intelligent Robotic Manipulation Lab](https://thu-irml.com). I also worked with [Prof. Shuran Song](https://shurans.github.io/) at the [REALab](https://real.stanford.edu) at Stanford University as an undergraduate visiting researcher.
 
@@ -16,11 +16,11 @@ My interest in robotics started when I participated in the [FIRST Robotics Compe
 
 ## Research Interests
 
-My work focuses on bridging the gap between human dexterity and robotic capabilities:
+My primary interests focus on bridging the gap between human dexterity and robotic capabilities:
 
-🧠 **Learning from Diverse Data** — Learning from diverse data sources: egocentric videos, robot data, and human interventions  
+🧠 **Learning from Diverse Data** — Learning from diverse data sources: egocentric videos, human data, and human interventions  
 🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks   
-🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation  
+<!-- 🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation   -->
 🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world  
 
 ## Quick Links
@@ -32,6 +32,7 @@ My work focuses on bridging the gap between human dexterity and robotic capabili
 
 ## Latest Updates
 
+- **[2026.8.15]** – Excited to begin my Ph.D. journey at Georgia Tech!
 - **[2026.6.27]** - I received my B.Eng. in Automation from Tsinghua University and was honored with the Outstanding Graduate Award and Outstanding Bachelor's Thesis Award.
 - **[2026.1.15]** - Our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice.
 - **[2025.6.21]** - I start my internship at Stanford [REALab](https://real.stanford.edu) as an undergraduate visiting student, working with [Prof. Shuran Song](https://shurans.github.io).
@@ -63,4 +64,4 @@ Research Assistant, Intelligent Robotic Manipulation Lab
 
 ## Contact
 
-I'm always interested in discussing robotics, AI, and potential collaborations. Feel free to reach out via [email](mailto:cxin34@gatech.edu) or connect with me on [GitHub](https://github.com/Star-Xcd)!
+I'm always interested in discussing robotics, AI, and any topics you feel interetsed and wanna talk about. Feel free to reach out via [email](mailto:cxin34@gatech.edu)!

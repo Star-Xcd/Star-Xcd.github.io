@@ -5,3 +5,90 @@
 <meta property="og:url" content="https://star-xcd.github.io/">
 <meta property="og:type" content="website">
 <meta name="google-site-verification" content="2MS4eWSfRP0a4hFs73gGIICz7hWCMKHjxKHefBuzLRU" />
+
+<style>
+/* Elsewhere — a warmer, more personal B-side to the academic site. */
+.bside {
+  --ink: #17211d;
+  --paper: #f5f0e5;
+  --red: #e45d45;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  margin: -1rem 0 2rem;
+}
+.bside__hero {
+  background: var(--paper);
+  border: 1px solid #ded6c7;
+  border-radius: 2px;
+  min-height: 430px;
+  padding: clamp(2rem, 7vw, 5.5rem);
+  position: relative;
+  overflow: hidden;
+}
+.bside__hero::after {
+  background: var(--red);
+  border-radius: 50%;
+  content: "";
+  height: 220px;
+  opacity: .92;
+  position: absolute;
+  right: -65px;
+  top: -70px;
+  width: 220px;
+}
+.bside__eyebrow, .bside__stamp, .bside__postcard-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.bside__hero h1 {
+  font-size: clamp(2.5rem, 7vw, 5.4rem);
+  letter-spacing: -.055em;
+  line-height: .95;
+  margin: 1.2rem 0 1.5rem;
+  max-width: 820px;
+}
+.bside__lede { font-size: 1.05rem; line-height: 1.7; max-width: 610px; }
+.bside__down {
+  color: var(--ink);
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .75rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.bside__manifesto { padding: 5rem 1rem; text-align: center; }
+.bside__manifesto p { font-size: clamp(1.4rem, 3vw, 2.3rem); line-height: 1.25; margin: .25rem; }
+.bside__manifesto p:last-child { color: var(--red); font-style: italic; }
+.bside__section { border-top: 1px solid #d8d8d2; padding-top: 2rem; }
+.bside__section-heading { display: grid; gap: .5rem; grid-template-columns: 3rem 1fr auto; align-items: baseline; }
+.bside__section-heading span, .bside__section-heading p { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .75rem; }
+.bside__section-heading h2 { border: 0; font-size: 2rem; margin: 0; }
+.bside__cards { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); margin-top: 2rem; }
+.bside__card { display: flex; flex-direction: column; min-height: 310px; padding: 1.6rem; transform: rotate(-.6deg); }
+.bside__card:nth-child(2) { transform: rotate(.7deg) translateY(12px); }
+.bside__card:nth-child(3) { transform: rotate(-.3deg); }
+.bside__card--blue { background: #bddbd7; }
+.bside__card--yellow { background: #ecd788; }
+.bside__card--pink { background: #e6b8af; }
+.bside__card h3 { font-size: 1.65rem; line-height: 1.05; margin: 2.5rem 0 1rem; }
+.bside__card p:not(.bside__stamp) { font-size: .9rem; line-height: 1.6; }
+.bside__soon { border-top: 1px solid rgba(23,33,29,.35); font-size: .68rem; font-style: italic; margin-top: auto; padding-top: .75rem; }
+.bside__postcard { border: 1px solid #d8d0c3; margin: 6rem auto; max-width: 690px; padding: clamp(2rem, 6vw, 4rem); position: relative; transform: rotate(.7deg); }
+.bside__postcard blockquote { border: 0; color: var(--ink); font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.35; margin: 2rem 0; padding: 0; }
+.bside__signature { color: var(--red); font-size: 1.3rem; text-align: right; }
+.bside__footer { border-top: 1px solid #d8d8d2; display: flex; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .75rem; justify-content: space-between; padding: 1.5rem 0; }
+.bside__footer a { color: var(--red); text-decoration: none; }
+body:has(.bside) .page__title { display: none; }
+body:has(.bside) .page { padding-right: 0; }
+@media (max-width: 700px) {
+  .bside__hero { min-height: 390px; padding: 2rem 1.4rem; }
+  .bside__hero::after { height: 120px; right: -45px; top: -45px; width: 120px; }
+  .bside__cards { grid-template-columns: 1fr; }
+  .bside__card, .bside__card:nth-child(2), .bside__card:nth-child(3) { min-height: 250px; transform: none; }
+  .bside__section-heading { grid-template-columns: 2rem 1fr; }
+  .bside__section-heading p { grid-column: 2; margin-top: 0; }
+}
+</style>

@@ -9,5 +9,7 @@ main:
     url: /projects/
   - title: "Publications"
     url: /publications/
+  - title: "Elsewhere"
+    url: /elsewhere/
   - title: "CV"
     url: /assets/docs/CV_ChendongXin.pdf
