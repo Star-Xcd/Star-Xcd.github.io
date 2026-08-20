@@ -9,7 +9,6 @@ excerpt: "The B-side of Chendong Xin — life beyond papers, robots, and the lab
 <div class="bside">
   <header class="bside__intro">
     <p class="bside__eyebrow">THE B-SIDE</p>
-    <h1>Life beyond the lab.</h1>
     <p class="bside__lede">Away from robots and papers, I spend my time with music, films, football, and the outdoors.</p>
   </header>
 

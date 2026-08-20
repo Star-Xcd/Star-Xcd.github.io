@@ -7,7 +7,7 @@ title_separator: "-"
 subtitle: "Robot Learning and Manipulation"
 name: "Chendong Xin"
 description: >-
-  Incoming Ph.D. student in Robotics at Georgia Tech, focused on robot learning and robotic manipulation.
+  Ph.D. student in Robotics at Georgia Tech
 url: "https://star-xcd.github.io"
 baseurl: ""
 repository: "Star-Xcd/star-xcd.github.io"
@@ -23,8 +23,8 @@ words_per_minute: 200
 author:
   name: "Chendong Xin"
   avatar: "assets/images/bio-photo.jpg"
-  bio: "Incoming Ph.D. student in Robotics at Georgia Tech, working on robot learning and manipulation."
-  # location: "Tsinghua University, China"
+  bio: "Ph.D. student in Robotics at Georgia Tech"
+  location: "Atlanta, GA"
   email: "cxin34@gatech.edu"
   links:
     - label: "GitHub"
