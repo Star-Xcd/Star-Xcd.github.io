@@ -26,8 +26,7 @@ My primary interests focus on bridging the gap between human dexterity and robot
 ## Quick Links
 
 <!-- 📄 [About Me](/about/) - Learn more about my background and experience   -->
-🔬 [Projects](/projects/) - Current and past research projects  
-📚 [Publications](/publications/) - Journal and conference publications  
+🔬 [Research](/research/) - Publications and selected research projects  
 📋 [CV](/assets/docs/CV_ChendongXin.pdf) - Complete curriculum vitae  
 
 ## Latest Updates
