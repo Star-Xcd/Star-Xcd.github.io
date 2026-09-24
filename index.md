@@ -4,9 +4,9 @@ author_profile: true
 classes: wide
 ---
 
-I'm Chendong Xin, a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with [Prof. Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
+I'm Chendong Xin, a Ph.D. student in Robotics at the Georgia Institute of Technology, where I work with Prof. [Danfei Xu](https://faculty.cc.gatech.edu/~danfei/).
 
-I received my B.Eng. in Automation from Tsinghua University, where I worked with Prof. Xiang Li in the [Intelligent Robotic Manipulation Lab](https://thu-irml.com). I also worked with [Prof. Shuran Song](https://shurans.github.io/) at the [REALab](https://real.stanford.edu) at Stanford University as an undergraduate visiting researcher.
+I received my B.Eng. in Automation from Tsinghua University, where I worked with Prof. [Xiang Li](https://sites.google.com/view/homepageoflixiang/home) in the [Intelligent Robotic Manipulation Lab](https://thu-irml.com). I also worked with Prof. [Shuran Song](https://shurans.github.io/) at the [REALab](https://real.stanford.edu) at Stanford University as an undergraduate visiting researcher.
 
 <!-- My research focuses on robot learning and robotic manipulation, with an emphasis on learning from diverse human data and enabling dexterous, contact-rich manipulation. I am particularly interested in building robotic systems that operate reliably in real-world environments. -->
 

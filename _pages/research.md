@@ -17,7 +17,7 @@ excerpt: "Publications and selected research projects by Chendong Xin."
     <p class="research-item__type">Publication · 2025</p>
     <h2><a href="https://compliant-residual-dagger.github.io/">Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections</a></h2>
     <p class="research-item__authors">Xiaomeng Xu*, Yifan Hou*, <strong>Chendong Xin</strong>, Zeyi Liu, and Shuran Song</p>
-    <p class="research-item__venue"><strong>NeurIPS 2025</strong> · Human-to-Robot Workshop at CoRL 2025, Best Paper</p>
+    <p class="research-item__venue"><strong>International Journal of Robotics Research, 2026</strong> · Human-to-Robot Workshop at CoRL 2025, Best Paper</p>
     <p class="research-item__links"><a href="https://compliant-residual-dagger.github.io/">Website</a><span>·</span><a href="https://arxiv.org/abs/2506.16685">Paper</a><span>·</span><a href="https://github.com/yifan-hou/cr-dagger">Code</a></p>
     <p class="research-item__tldr"><strong>TL;DR:</strong> A compliant intervention interface and residual policy enable robots to learn precise, contact-rich manipulation from minimal human correction data.</p>
   </article>
