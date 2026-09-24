@@ -10,27 +10,28 @@ I received my B.Eng. in Automation from Tsinghua University, where I worked with
 
 <!-- My research focuses on robot learning and robotic manipulation, with an emphasis on learning from diverse human data and enabling dexterous, contact-rich manipulation. I am particularly interested in building robotic systems that operate reliably in real-world environments. -->
 
-My research focuses on robot learning and robotic manipulation, with an emphasis on dexterous, contact-rich manipulation and robust real-world robot systems. I am particularly interested in leveraging diverse human data to build robotic systems that can learn and generalize to complex real-world tasks.
+My research focuses on physics-grounded robot learning for dexterous, contact-rich manipulation and building full-stack real-world robotic systems. I am particularly interested in how diverse multisensory data and physical interaction can help robots learn skills that are reliable and generalize to complex real-world tasks.
 
 My interest in robotics started when I participated in the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) (Team 6907) during high school.
 
 ## Research Interests
 
-My primary interests focus on bridging the gap between human dexterity and robotic capabilities:
+My primary interests focus on bridging the gap between human dexterity and robotic capabilities through physics-grounded learning:
 
-🧠 **Learning from Diverse Data** — Learning from diverse data sources: egocentric videos, human data, and human interventions  
-🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks   
-<!-- 🧩 **Vision-Language-Action Models** — Building foundation models for generalizable robotic manipulation   -->
-🤖 **Real-world Robotic Systems** - Building full-stack robotic systems that operate reliably in the real world  
+🧠 **Learning from Human Data** — Learning from scalable and multisensory human data <br>
+⚙️ **Physics-Grounded Manipulation** — Incorporating contact and force/tactile information into robot learning and control<br>
+🖐️ **Dexterous Manipulation** — Enabling robot hands to perform complex, contact-rich manipulation tasks<br>
+🤖 **Real-world Robotic Systems** — Building full-stack robotic systems that operate reliably in the real world
 
 ## Latest Updates
 
+- **[2026.9.24]** – Our paper [Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections](https://compliant-residual-dagger.github.io/) is accepted by International Journal of Robotics Research.
 - **[2026.8.15]** – Excited to begin my Ph.D. journey at Georgia Tech!
 - **[2026.6.27]** - I received my B.Eng. in Automation from Tsinghua University and was honored with the Outstanding Graduate Award and Outstanding Bachelor's Thesis Award.
-- **[2026.1.15]** - Our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice.
+- **[2026.1.15]** - Our paper [Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation](https://github.com/Mingrui-Yu/retargeting) is accepted by IEEE Robotics and Automation Practice.
 - **[2025.6.21]** - I start my internship at Stanford [REALab](https://real.stanford.edu) as an undergraduate visiting student, working with [Prof. Shuran Song](https://shurans.github.io).
 - **[2025.5.22]** - We win the Picking-in-Clutter Track of [the Robotics Grasping and Manipulation Competition (RGMC)](https://sites.google.com/view/rgmc2025) at ICRA 2025.
-- **[2025.5.19]** - I present our paper [*Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation*](https://github.com/Mingrui-Yu/retargeting) at ICRA 2025 Workshop "Handy Moves: Dexterity in Multi-Fingered Hands".
+- **[2025.5.19]** - I present our paper [Analyzing Key Objectives in Human-to-Robot Retargeting for Dexterous Manipulation](https://github.com/Mingrui-Yu/retargeting) at ICRA 2025 Workshop "Handy Moves: Dexterity in Multi-Fingered Hands".
 
 ## Education
 
