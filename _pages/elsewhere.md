@@ -22,7 +22,7 @@ excerpt: "The B-side of Chendong Xin — life beyond papers, robots, and the lab
   <section class="bside__entry">
     <h2>Films</h2>
     <p>I love watching films. To me, film is neither purely an art of narrative nor an exercise in philosophical speculation. It reveals something about life not by offering answers or solutions, but by allowing us to encounter possibilities before we live them.</p>
-    <p><em>Cinema Paradiso</em> and <em>A City of Sadness</em> are among my favourite films. My favourite directors include Hou Hsiao-hsien and Éric Rohmer.</p>
+    <p><em>Cinema Paradiso</em> and <em>A City of Sadness</em> are among my favourite films. My favourite directors include Hou Hsiao-hsien, Wong Kar-wai, Éric Rohmer, and Aki Kaurismäki.</p>
     <p>I'm currently watching David Lynch's <em>Twin Peaks</em> and really enjoy it!</p>
   </section>
 
