@@ -28,7 +28,7 @@ excerpt: "The B-side of Chendong Xin — life beyond papers, robots, and the lab
 
   <section class="bside__entry">
     <h2>Football</h2>
-    <p>I enjoy playing football and have been a loyal Liverpool supporter <a class="bside__lfc" href="https://www.liverpoolfc.com/" target="_blank" rel="noopener noreferrer" aria-label="Liverpool FC"><img src="/assets/images/liver-bird.svg" alt="Liverpool Liver Bird"></a> since 2017. My favourite player is Mohamed Salah.</p>
+    <p>I enjoy playing soccer and have been a loyal Liverpool supporter <a class="bside__lfc" href="https://www.liverpoolfc.com/" target="_blank" rel="noopener noreferrer" aria-label="Liverpool FC"><img src="/assets/images/liver-bird.svg" alt="Liverpool Liver Bird"></a> since 2017. My favourite player is Mohamed Salah.</p>
   </section>
 
   <section class="bside__entry">
