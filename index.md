@@ -35,26 +35,58 @@ My primary interests focus on bridging the gap between human dexterity and robot
 
 ## Education
 
-**Georgia Institute of Technology**  
-Ph.D. in Robotics  
-*Advisor: Danfei Xu*  
-2026 – Present
+<div class="affiliation-list">
+  <div class="affiliation-card">
+    <a class="affiliation-card__logo" href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer" aria-label="Georgia Institute of Technology">
+      <img src="/assets/images/georgia-tech-seal.svg" alt="Georgia Tech seal" loading="lazy">
+    </a>
+    <div class="affiliation-card__details">
+      <strong>Georgia Institute of Technology</strong><br>
+      Ph.D. in Robotics<br>
+      <em>Advisor: Danfei Xu</em><br>
+      2026 – Present
+    </div>
+  </div>
 
-**Tsinghua University**  
-B.Eng. in Automation  
-2022 – 2026
+  <div class="affiliation-card">
+    <a class="affiliation-card__logo" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener noreferrer" aria-label="Tsinghua University">
+      <img src="/assets/images/tsinghua-seal.svg" alt="Tsinghua University seal" loading="lazy">
+    </a>
+    <div class="affiliation-card__details">
+      <strong>Tsinghua University</strong><br>
+      B.Eng. in Automation<br>
+      2022 – 2026
+    </div>
+  </div>
+</div>
 
 ## Research Experience
 
-**Stanford University**  
-Undergraduate Visiting Researcher, REALab  
-*Advisor: Shuran Song*  
-2025
+<div class="affiliation-list">
+  <div class="affiliation-card">
+    <a class="affiliation-card__logo" href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer" aria-label="Stanford University">
+      <img src="/assets/images/stanford-seal.png" alt="Stanford University seal" loading="lazy">
+    </a>
+    <div class="affiliation-card__details">
+      <strong>Stanford University</strong><br>
+      Undergraduate Visiting Researcher, REALab<br>
+      <em>Advisor: Shuran Song</em><br>
+      2025
+    </div>
+  </div>
 
-**Tsinghua University**  
-Research Assistant, Intelligent Robotic Manipulation Lab  
-*Advisor: Xiang Li*  
-2023-2026
+  <div class="affiliation-card">
+    <a class="affiliation-card__logo" href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener noreferrer" aria-label="Tsinghua University">
+      <img src="/assets/images/tsinghua-seal.svg" alt="Tsinghua University seal" loading="lazy">
+    </a>
+    <div class="affiliation-card__details">
+      <strong>Tsinghua University</strong><br>
+      Research Assistant, Intelligent Robotic Manipulation Lab<br>
+      <em>Advisor: Xiang Li</em><br>
+      2023–2026
+    </div>
+  </div>
+</div>
 
 ## Contact
 

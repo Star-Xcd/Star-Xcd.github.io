@@ -179,4 +179,40 @@
 .page__content a {
   text-decoration: none;
 }
+
+/* School affiliations on the home page. */
+.affiliation-list { margin: 1.2rem 0 2.4rem; }
+.affiliation-card {
+  align-items: flex-start;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 76px minmax(0, 1fr);
+  margin-bottom: 1.7rem;
+}
+.affiliation-card__logo {
+  align-items: center;
+  display: flex;
+  height: 76px;
+  justify-content: center;
+  text-decoration: none;
+  width: 76px;
+}
+.affiliation-card__logo img {
+  display: block;
+  height: 72px;
+  object-fit: contain;
+  width: 72px;
+}
+.affiliation-card__details {
+  line-height: 1.55;
+  padding-top: .05rem;
+}
+@media (max-width: 600px) {
+  .affiliation-card {
+    gap: .9rem;
+    grid-template-columns: 58px minmax(0, 1fr);
+  }
+  .affiliation-card__logo { height: 58px; width: 58px; }
+  .affiliation-card__logo img { height: 54px; width: 54px; }
+}
 </style>
